@@ -194,6 +194,13 @@ footer a{color:var(--muted);margin-left:18px}
 .hub-work{display:flex;flex-direction:column;gap:10px;border:1px dashed #4a4036;border-radius:14px;padding:18px 24px;color:var(--muted)}
 .hub-work b{color:var(--cream)}
 .hub-links{display:flex;flex-wrap:wrap;gap:20px}.hub-links a{color:var(--gold);text-decoration:none;font-weight:700}.hub-links a:hover{text-decoration:underline}
+
+/* load more */
+.more-wrap{display:flex;justify-content:center;margin-top:28px}
+.more{display:inline-flex;align-items:center;gap:10px;background:transparent;border:1px solid var(--gold);color:var(--gold);font:700 15px Inter,sans-serif;padding:13px 24px;border-radius:999px;cursor:pointer;transition:background .15s,color .15s}
+.more:hover{background:var(--gold);color:#14110f}.more svg{width:20px;height:20px;fill:currentColor;animation:bob 1.6s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
+@media(prefers-reduced-motion:reduce){.more svg{animation:none}}
 </style>
 </head>
 <body>
@@ -226,6 +233,7 @@ footer a{color:var(--muted);margin-left:18px}
 <div class="next" id="next" hidden><span class="stamp">CLASSIFIED</span><div><div class="lbl">Next file opens in</div><div class="cd" id="cd"></div><div class="tz" id="tz"></div></div></div></div>
 <div class="tools" id="chips"><input class="search" id="q" type="search" placeholder="Search a company" aria-label="Search episodes"></div>
 <div class="grid" id="grid"></div>
+<div class="more-wrap"><button id="more" class="more" hidden><span>Show more files</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16.5 4.5 9l1.4-1.4 6.1 6.1 6.1-6.1L19.5 9z"/></svg></button></div>
 <p class="empty" id="empty" hidden>No file matches that yet. Suggest it below and we may open one.</p>
 </div></section>
 
@@ -335,16 +343,21 @@ rise:{t:"The comeback",d:"The rare file where the underdog wins."}};
 const g=document.getElementById('grid'),q=document.getElementById('q'),chips=document.getElementById('chips'),empty=document.getElementById('empty');
 let cur='all';
 function card(e){const a=document.createElement('a');a.className='card';if(PAGES[e.n]){a.href='/files/'+PAGES[e.n]+'/';}else{a.href='https://www.youtube.com/watch?v='+e.id;a.target='_blank';a.rel='noopener';}
-a.innerHTML='<div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/'+e.id+'/hqdefault.jpg"><span class="badge">FILE No. '+e.n+'</span><span class="dur">'+e.m+' min</span></div><div class="body"><div class="co"></div><div class="ttl"></div><span class="pat"></span></div>';
+a.innerHTML='<div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/'+e.id+'/hqdefault.jpg"><span class="dur">'+e.m+' min</span></div><div class="body"><div class="co"></div><div class="ttl"></div><span class="pat"></span></div>';
 a.querySelector('.co').textContent=e.co;a.querySelector('.ttl').textContent=e.t;a.querySelector('.pat').textContent=PAT[e.p].t+' · '+e.y;return a;}
-function render(){const t=q.value.trim().toLowerCase();g.innerHTML='';
+let shown=8;
+function render(keep){const t=q.value.trim().toLowerCase();g.innerHTML='';if(!keep)shown=8;
 const list=live.filter(e=>(cur==='all'||e.p===cur)&&(!t||(e.co+' '+e.t).toLowerCase().includes(t)));
-list.forEach(e=>g.appendChild(card(e)));empty.hidden=list.length>0;}
+const lim=(t||cur!=='all')?list.length:shown;
+list.slice(0,lim).forEach(e=>g.appendChild(card(e)));empty.hidden=list.length>0;
+const mb=document.getElementById('more'),left=list.length-lim;mb.hidden=left<=0;
+mb.querySelector('span').textContent=left>0?('Show more files ('+left+' more)'):'';}
+document.getElementById('more').onclick=function(){shown+=8;render(true);};
 function setPat(k){cur=k;chips.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',c.dataset.k===k));render();}
 const counts={};live.forEach(e=>counts[e.p]=(counts[e.p]||0)+1);
 [['all','All files',live.length]].concat(Object.keys(PAT).filter(k=>counts[k]).map(k=>[k,PAT[k].t,counts[k]])).forEach(([k,l,c])=>{
 const b=document.createElement('button');b.className='chip'+(k==='all'?' on':'');b.dataset.k=k;b.innerHTML=l+'<i>'+c+'</i>';b.onclick=()=>setPat(k);chips.insertBefore(b,q);});
-q.oninput=render;render();
+q.oninput=()=>render();render();
 // patterns
 const pats=document.getElementById('pats');
 ['shift','debt','fraud','hype'].filter(k=>counts[k]).forEach(k=>{const b=document.createElement('button');b.className='pcard rv';
