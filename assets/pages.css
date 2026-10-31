@@ -69,3 +69,11 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 .brief-form button{border:0;border-radius:999px;background:var(--gold);color:#14110f;font:700 15px Inter,sans-serif;padding:14px 22px;cursor:pointer}
 .brief-form button:hover{filter:brightness(1.08)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* Three lessons */
+.lessons{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:760px){.lessons{grid-template-columns:repeat(3,1fr)}}
+.lessons li{display:flex;gap:16px;align-items:flex-start;background:var(--ink2);border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+@media(min-width:760px){.lessons li{flex-direction:column;gap:10px}}
+.lessons .ln{font:400 44px/1 Anton,Impact,sans-serif;color:var(--gold);flex:none;min-width:28px}
+.lessons p{margin:0!important;color:#ddd5c6;font-size:15px;line-height:1.55}

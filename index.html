@@ -201,12 +201,37 @@ footer a{color:var(--muted);margin-left:18px}
 .more[hidden]{display:none}.more.up svg{transform:rotate(180deg);animation:none}.more:hover{background:var(--gold);color:#14110f}.more svg{width:20px;height:20px;fill:currentColor;animation:bob 1.6s ease-in-out infinite}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
 @media(prefers-reduced-motion:reduce){.more svg{animation:none}}
+
+/* latest shorts */
+#shorts{padding:56px 0}
+.sh-row{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;margin:0 -2px;-webkit-overflow-scrolling:touch}
+.sh-row::-webkit-scrollbar{height:6px}.sh-row::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
+.sh{flex:0 0 150px;scroll-snap-align:start;text-decoration:none;color:var(--cream)}
+@media(min-width:900px){.sh{flex-basis:168px}}
+.sh-im{position:relative;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:#000;border:1px solid var(--line);transition:border-color .15s,transform .15s}
+.sh-im img{width:100%;height:100%;object-fit:cover}
+.sh:hover .sh-im{border-color:var(--gold);transform:translateY(-3px)}
+.sh-im::after{content:"";position:absolute;inset:auto 0 0 0;height:40%;background:linear-gradient(transparent,rgba(0,0,0,.6))}
+.sh-tag{position:absolute;left:8px;top:8px;z-index:1;background:rgba(0,0,0,.72);font:12px 'Special Elite',monospace;color:var(--gold);padding:2px 7px;border-radius:4px;letter-spacing:.5px}
+.sh-t{font-weight:600;font-size:14px;line-height:1.35;margin-top:8px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.sh-all{color:var(--gold);font-weight:700;text-decoration:none;white-space:nowrap}.sh-all:hover{text-decoration:underline}
+
+/* phone newsletter bar */
+.pbar{display:none}
+@media(max-width:640px){
+body.bar-on{padding-bottom:76px}
+body.bar-on .pbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;align-items:center;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(20,17,15,.96);backdrop-filter:blur(8px);border-top:1px solid #5a4416;transition:transform .25s}
+body.bar-on.bar-away .pbar{transform:translateY(110%)}
+}
+.pbar a{flex:1;text-align:center;background:var(--gold);color:#14110f;text-decoration:none;font:700 15px Inter,sans-serif;padding:13px 16px;border-radius:999px}
+.pbar button{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--muted);font:400 22px/1 Inter,sans-serif;cursor:pointer}
+.pbar button:hover{color:var(--cream);border-color:var(--muted)}
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap">
 <a class="brand" href="#"><img src="assets/crown.png" alt="">RISE <b>&amp;</b> RUIN</a>
-<nav><a href="#episodes">Episodes</a><a href="#patterns">Patterns</a><a href="#timeline">Timeline</a><a href="#founder">About</a><a class="sub" href="https://www.youtube.com/@riseundruin?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a></nav>
+<nav><a href="#episodes">Episodes</a><a href="#patterns">Patterns</a><a href="#timeline">Timeline</a><a href="#founder">About</a><a href="#newsletter">Newsletter</a><a class="sub" href="https://www.youtube.com/@riseundruin?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a></nav>
 </div></header>
 
 <div class="hero"><div class="wrap">
@@ -235,6 +260,12 @@ footer a{color:var(--muted);margin-left:18px}
 <div class="grid" id="grid"></div>
 <div class="more-wrap"><button id="more" class="more" hidden><span>Show more files</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16.5 4.5 9l1.4-1.4 6.1 6.1 6.1-6.1L19.5 9z"/></svg></button></div>
 <p class="empty" id="empty" hidden>No file matches that yet. Suggest it below and we may open one.</p>
+</div></section>
+
+<section id="shorts" hidden><div class="wrap">
+<div class="head"><div><h2>Latest Shorts</h2>
+<p class="sec-sub">One fact from the files, under a minute.</p></div><a class="sh-all" href="https://www.youtube.com/@riseundruin/shorts" target="_blank" rel="noopener">See all Shorts &rarr;</a></div>
+<div class="sh-row" id="sh-row"></div>
 </div></section>
 
 <div class="quote rv"><div class="wrap"><p>Every empire believes<br><em>it is the exception.</em></p><small>THE FIRST RULE OF THE EMPIRE FILES</small></div></div>
@@ -325,7 +356,10 @@ footer a{color:var(--muted);margin-left:18px}
 <div><a href="standards.html">Standards</a><a href="press.html">Press</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
 </div></footer>
 
+<div class="pbar" id="pbar" role="region" aria-label="Newsletter"><a href="#newsletter">Get the Empire Brief</a><button type="button" id="pbar-x" aria-label="Dismiss">&times;</button></div>
+
 <script>
+const SHORTS=[{"id": "i5Xzf6Z2YrI", "t": "Pan Am Sold Its Own Skyscraper to Stay Alive", "at": "2026-10-29"}, {"id": "HA6wTvSS4mo", "t": "Pan Am Took 93,000 Reservations for the Moon", "at": "2026-10-28"}, {"id": "dZQoHcBYkCk", "t": "One Letter Warned Enron Before It Collapsed", "at": "2026-10-26"}, {"id": "CZas_or-HZE", "t": "Enron Went From $90 to 61 Cents in 15 Months", "at": "2026-10-25"}, {"id": "ZezVHRXNhqM", "t": "The Weekend That Killed a 158 Year Old Bank", "at": "2026-10-23"}, {"id": "FnjXlyNicpI", "t": "Lehman Brothers Borrowed 30 to 1. Then It Vanished.", "at": "2026-10-22"}, {"id": "TzDYfjoCmoI", "t": "You Could Once Buy a Whole House From the Sears Catalog", "at": "2026-10-20"}, {"id": "H6t-SGbMA4c", "t": "Sears Shut Its Catalog One Year Before Amazon Was Born", "at": "2026-10-19"}, {"id": "OI4gKehsk4U", "t": "Toys R Us Let Amazon Run Its Website. Big Mistake.", "at": "2026-10-17"}, {"id": "_eC9EQ3WmlE", "t": "Toys R Us Was Bought With $5.3 Billion of Its Own Debt", "at": "2026-10-16"}];
 const EPS=[{"n":1,"id":"382xIEf105Y","co":"Nokia","t":"How Nokia Lost 40% of the Phone Market","m":7,"at":"2026-09-24T00:00:00Z","y":2013,"ev":"Sells its phone business to Microsoft","p":"shift"},{"n":2,"id":"z1Ezcxj0Fhk","co":"Blockbuster","t":"Blockbuster Almost Beat Netflix. Here's What Really Killed It.","m":7,"at":"2026-09-24T00:00:00Z","y":2010,"ev":"Files for bankruptcy","p":"shift"},{"n":3,"id":"L-rbqfrCf7A","co":"Kodak","t":"Kodak Invented the Digital Camera. So Why Did It Go Bankrupt?","m":7,"at":"2026-09-24T00:00:00Z","y":2012,"ev":"Files for bankruptcy","p":"shift"},{"n":4,"id":"NsDATijOlj4","co":"BlackBerry","t":"BlackBerry Saw the iPhone Coming. Here's Why It Still Lost.","m":6,"at":"2026-09-24T00:00:00Z","y":2016,"ev":"Stops designing its own phones","p":"shift"},{"n":5,"id":"HE49IGXmBNk","co":"Quibi","t":"Hollywood Spent $1.75 Billion on an App Nobody Wanted","m":5,"at":"2026-09-24T00:00:00Z","y":2020,"ev":"Shuts down months after launch","p":"hype"},{"n":6,"id":"WuPvvEOoBPg","co":"WeWork","t":"WeWork: The $47 Billion Company That Rented Desks","m":7,"at":"2026-09-24T00:00:00Z","y":2023,"ev":"Files for bankruptcy","p":"hype"},{"n":7,"id":"cfWkKZsRnEA","co":"Tata JLR","t":"Tata Tried to Sell to Ford. 9 Years Later, It Bought Jaguar.","m":9,"at":"2026-10-11T00:00:00Z","y":2008,"ev":"Buys Jaguar Land Rover from Ford","p":"rise"},{"n":8,"id":"FPAyYKlGgTo","co":"MySpace","t":"Facebook Didn't Kill MySpace. MySpace Did","m":6,"at":"2026-10-11T00:00:00Z","y":2011,"ev":"Sold for a fraction of its price","p":"shift"},{"n":9,"id":"nLxWpRYVQbY","co":"Yahoo","t":"How Yahoo Introduced the World to Google","m":6,"at":"2026-10-15T00:00:00Z","y":2017,"ev":"Sold to Verizon","p":"shift"},{"n":10,"id":"PjyxjpOVxbk","co":"Toys R Us","t":"Toys R Us Was Bought With $5 Billion of Its Own Debt","m":5,"at":"2026-10-15T00:00:00Z","y":2018,"ev":"Closes its US stores","p":"debt"},{"n":11,"id":"e8OdW9-D-MI","co":"Sears","t":"Sears Quit Selling From Home One Year Before Amazon","m":5,"at":"2026-10-18T00:00:00Z","y":2018,"ev":"Files for bankruptcy","p":"shift"},{"n":12,"id":"AaAzwIjWbww","co":"Lehman Brothers","t":"Lehman Brothers Survived 158 Years. It Didn't Survive One Weekend.","m":6,"at":"2026-10-21T00:00:00Z","y":2008,"ev":"Largest bankruptcy in US history","p":"debt"},{"n":13,"id":"o1LHMGajD-s","co":"Enron","t":"Enron Was America's Most Innovative Company. Its Profits Were Invented.","m":5,"at":"2026-10-24T00:00:00Z","y":2001,"ev":"Files for bankruptcy","p":"fraud"},{"n":14,"id":"-kn_wGY0kfU","co":"Pan Am","t":"Why Did Pan Am Fail? The Airline That Took Reservations for the Moon","m":5,"at":"2026-10-27T00:00:00Z","y":1991,"ev":"Stops flying","p":"debt"},{"n":15,"id":"_VbSVRiAzDk","co":"Atari","t":"Why Did Atari Fail? The Company That Buried Its Games in the Desert","m":4,"at":"2026-10-31T13:00:00Z","y":1983,"ev":"The video game crash","p":"hype","tz":"The company that buried its games in the desert."},{"n":16,"id":"DofWomxZxfk","co":"FTX","t":"Why Did FTX Collapse? The $32 Billion Crypto Exchange That Vanished in 9 Days","m":3,"at":"2026-11-07T13:00:00Z","y":2022,"ev":"Files for bankruptcy","p":"fraud","tz":"A $32 billion exchange that vanished in 9 days."},{"n":17,"id":"j1zY5xiTVFA","co":"Theranos","t":"Why Did Theranos Fail? The $9 Billion Blood Test That Never Worked","m":2,"at":"2026-11-14T13:00:00Z","y":2018,"ev":"Dissolves","p":"fraud","tz":"A $9 billion blood test that never worked."}];
 const PAGES={"1": "nokia", "2": "blockbuster", "3": "kodak", "4": "blackberry", "5": "quibi", "6": "wework", "7": "tata-jlr", "8": "myspace", "9": "yahoo", "10": "toys-r-us", "11": "sears", "12": "lehman-brothers", "13": "enron", "14": "pan-am", "15": "atari"};
 const now=Date.now();
@@ -380,6 +414,18 @@ if(up){const nx=document.getElementById('next'),cd=document.getElementById('cd')
 document.getElementById('tz').innerHTML='File No. '+up.n+': <span class="redact">'+up.co+'</span> '+(up.tz||'');
 const tick=()=>{let s=Math.max(0,Math.floor((Date.parse(up.at)-Date.now())/1000));const d=Math.floor(s/86400),hh=Math.floor(s%86400/3600),mm=Math.floor(s%3600/60),ss=s%60;
 cd.textContent=(d?d+'d ':'')+String(hh).padStart(2,'0')+'h '+String(mm).padStart(2,'0')+'m '+String(ss).padStart(2,'0')+'s';};tick();setInterval(tick,1000);}
+// latest shorts
+(function(){const row=document.getElementById('sh-row');if(!SHORTS.length)return;
+SHORTS.forEach(x=>{const a=document.createElement('a');a.className='sh';a.href='https://www.youtube.com/shorts/'+x.id;a.target='_blank';a.rel='noopener';
+a.innerHTML='<div class="sh-im"><span class="sh-tag">SHORT</span><img loading="lazy" alt="" src="https://i.ytimg.com/vi/'+x.id+'/hqdefault.jpg"></div><div class="sh-t"></div>';
+a.querySelector('.sh-t').textContent=x.t;row.appendChild(a);});
+document.getElementById('shorts').hidden=false;})();
+// phone newsletter bar
+(function(){let off=false;try{off=localStorage.getItem('rr_brief_bar')==='off';}catch(e){}
+if(off)return;const b=document.body;b.classList.add('bar-on');
+document.getElementById('pbar-x').onclick=function(){b.classList.remove('bar-on');try{localStorage.setItem('rr_brief_bar','off');}catch(e){}};
+const nl=document.getElementById('newsletter');
+if('IntersectionObserver' in window&&nl){new IntersectionObserver(es=>es.forEach(x=>b.classList.toggle('bar-away',x.isIntersecting))).observe(nl);}})();
 // reveal on scroll
 const io='IntersectionObserver' in window?new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}}),{threshold:.12}):null;
 document.querySelectorAll('.rv,.how div,.founder').forEach(el=>{el.classList.add('rv');io?io.observe(el):el.classList.add('in');});
