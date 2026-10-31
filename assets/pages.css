@@ -56,3 +56,16 @@ h3{font:400 22px/1.1 Anton,sans-serif;color:var(--gold);margin:0 0 6px;letter-sp
 .boiler{background:var(--ink2);border-left:4px solid var(--gold);border-radius:8px;padding:18px 20px;color:#ddd5c6}
 footer{padding:36px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}footer a{margin-left:16px;text-decoration:none}footer a:hover{color:var(--cream)}
+
+/* The Empire Brief signup */
+.brief{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;background:linear-gradient(135deg,#2a1d0c,#14110f);border:1px solid #5a4416;border-radius:16px;padding:34px}
+@media(max-width:800px){.brief{grid-template-columns:1fr;padding:26px}}
+.brief h2{margin:6px 0 8px;color:var(--gold)}
+.brief p{margin:0;color:var(--muted)}
+.brief .kicker{font:14px 'Special Elite',monospace;color:var(--gold);letter-spacing:1px;text-transform:uppercase}
+.brief-form{display:flex;gap:10px;flex-wrap:wrap}
+.brief-form input{flex:1 1 220px;min-width:0;background:#0f0d0b;border:1px solid var(--line);color:var(--cream);border-radius:999px;padding:14px 18px;font:16px Inter,sans-serif}
+.brief-form input:focus{outline:none;border-color:var(--gold)}
+.brief-form button{border:0;border-radius:999px;background:var(--gold);color:#14110f;font:700 15px Inter,sans-serif;padding:14px 22px;cursor:pointer}
+.brief-form button:hover{filter:brightness(1.08)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}

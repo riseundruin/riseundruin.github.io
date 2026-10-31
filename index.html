@@ -150,6 +150,19 @@ footer a{color:var(--muted);margin-left:18px}
 .rv{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
 .rv.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}}
+
+/* The Empire Brief signup */
+.brief{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;background:linear-gradient(135deg,#2a1d0c,#14110f);border:1px solid #5a4416;border-radius:16px;padding:34px}
+@media(max-width:800px){.brief{grid-template-columns:1fr;padding:26px}}
+.brief h2{margin:6px 0 8px;color:var(--gold)}
+.brief p{margin:0;color:var(--muted)}
+.brief .kicker{font:14px 'Special Elite',monospace;color:var(--gold);letter-spacing:1px;text-transform:uppercase}
+.brief-form{display:flex;gap:10px;flex-wrap:wrap}
+.brief-form input{flex:1 1 220px;min-width:0;background:#0f0d0b;border:1px solid var(--line);color:var(--cream);border-radius:999px;padding:14px 18px;font:16px Inter,sans-serif}
+.brief-form input:focus{outline:none;border-color:var(--gold)}
+.brief-form button{border:0;border-radius:999px;background:var(--gold);color:#14110f;font:700 15px Inter,sans-serif;padding:14px 22px;cursor:pointer}
+.brief-form button:hover{filter:brightness(1.08)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 </style>
 </head>
 <body>
@@ -226,6 +239,18 @@ footer a{color:var(--muted);margin-left:18px}
 <details><summary>Where do the facts come from?</summary><p>Published reporting, company filings, official reports and court records. Key sources are listed in each video's description.</p></details>
 <details><summary>Can I suggest a company?</summary><p>Yes, please. Email us the company and what you think went wrong. Many of the best files start with a viewer's question.</p></details>
 <details><summary>Can I use or license a clip?</summary><p>Get in touch by email with where and how you would like to use it, and we will reply.</p></details>
+</div>
+</div></section>
+
+<section id="newsletter"><div class="wrap">
+<div class="brief" id="brief">
+<div class="brief-txt"><div class="kicker">Free newsletter</div><h2>The Empire Brief</h2>
+<p>Every new Empire File in your inbox: one company, how it rose, why it fell, and the three lessons behind it. No spam, unsubscribe anytime.</p></div>
+<form class="brief-form" action="https://app.kit.com/forms/10124925/subscriptions" method="post">
+<label class="sr" for="brief-email">Email address</label>
+<input id="brief-email" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required>
+<button type="submit">Open the files</button>
+</form>
 </div>
 </div></section>
 
