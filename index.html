@@ -198,7 +198,7 @@ footer a{color:var(--muted);margin-left:18px}
 /* load more */
 .more-wrap{display:flex;justify-content:center;margin-top:28px}
 .more{display:inline-flex;align-items:center;gap:10px;background:transparent;border:1px solid var(--gold);color:var(--gold);font:700 15px Inter,sans-serif;padding:13px 24px;border-radius:999px;cursor:pointer;transition:background .15s,color .15s}
-.more:hover{background:var(--gold);color:#14110f}.more svg{width:20px;height:20px;fill:currentColor;animation:bob 1.6s ease-in-out infinite}
+.more[hidden]{display:none}.more.up svg{transform:rotate(180deg);animation:none}.more:hover{background:var(--gold);color:#14110f}.more svg{width:20px;height:20px;fill:currentColor;animation:bob 1.6s ease-in-out infinite}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
 @media(prefers-reduced-motion:reduce){.more svg{animation:none}}
 </style>
@@ -350,9 +350,10 @@ function render(keep){const t=q.value.trim().toLowerCase();g.innerHTML='';if(!ke
 const list=live.filter(e=>(cur==='all'||e.p===cur)&&(!t||(e.co+' '+e.t).toLowerCase().includes(t)));
 const lim=(t||cur!=='all')?list.length:shown;
 list.slice(0,lim).forEach(e=>g.appendChild(card(e)));empty.hidden=list.length>0;
-const mb=document.getElementById('more'),left=list.length-lim;mb.hidden=left<=0;
-mb.querySelector('span').textContent=left>0?('Show more files ('+left+' more)'):'';}
-document.getElementById('more').onclick=function(){shown+=8;render(true);};
+const mb=document.getElementById('more'),left=list.length-lim,filt=(t||cur!=='all'),canFold=!filt&&lim>8&&left<=0;
+mb.hidden=filt||(left<=0&&!canFold);mb.classList.toggle('up',canFold);
+mb.querySelector('span').textContent=left>0?('Show more files ('+left+' more)'):'Show fewer files';}
+document.getElementById('more').onclick=function(){if(this.classList.contains('up')){render();document.getElementById('episodes').scrollIntoView({behavior:'smooth'});}else{shown+=8;render(true);}};
 function setPat(k){cur=k;chips.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',c.dataset.k===k));render();}
 const counts={};live.forEach(e=>counts[e.p]=(counts[e.p]||0)+1);
 [['all','All files',live.length]].concat(Object.keys(PAT).filter(k=>counts[k]).map(k=>[k,PAT[k].t,counts[k]])).forEach(([k,l,c])=>{
