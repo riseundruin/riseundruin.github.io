@@ -1,130 +1,450 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Rise &amp; Ruin Podcast: Empire Files</title>
-<meta name="description" content="Listen to Rise &amp; Ruin: true stories of how business empires rise, and why they fall. Free podcast, new Empire Files regularly.">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rise &amp; Ruin Podcast: Empire Files | Business history stories</title>
+<meta name="description" content="Listen to Rise &amp; Ruin: Empire Files. True stories of how business empires rise, and why they fall: Nokia, Kodak, Enron, Lehman Brothers, Pan Am and more. On Spotify, Apple Podcasts and YouTube.">
+<link rel="canonical" href="https://riseundruin.github.io/podcast/">
 <link rel="alternate" type="application/rss+xml" title="Rise &amp; Ruin: Empire Files" href="https://riseundruin.github.io/podcast/feed.xml">
+<link rel="icon" type="image/png" href="/assets/crown.png">
+<meta name="theme-color" content="#14110f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rise &amp; Ruin">
+<meta property="og:title" content="Rise &amp; Ruin: Empire Files, the podcast">
+<meta property="og:description" content="True stories of how business empires rise, and why they fall.">
 <meta property="og:image" content="https://riseundruin.github.io/podcast/cover-3000.jpg">
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Elite&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/pages.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "PodcastSeries", "name": "Rise & Ruin: Empire Files", "url": "https://riseundruin.github.io/podcast/", "image": "https://riseundruin.github.io/podcast/cover-3000.jpg", "webFeed": "https://riseundruin.github.io/podcast/feed.xml", "author": {"@type": "Organization", "name": "Rise & Ruin"}, "sameAs": ["https://open.spotify.com/show/5EtW21URHxPjKVuXmQ3ueC", "https://podcasts.apple.com/podcast/id6829391324", "https://www.youtube.com/@riseundruin"]}</script>
 <style>
-:root{--bg:#120f0d;--card:#1c1814;--ink:#f6eede;--muted:#b9ab96;--gold:#f0b62c;--red:#d71e1e}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.55}
-a{color:var(--gold)}.wrap{max-width:860px;margin:0 auto;padding:32px 16px 64px}
-header{display:flex;gap:28px;align-items:center;flex-wrap:wrap;margin-bottom:36px}
-header img{width:200px;height:200px;border-radius:14px}h1{font-family:Anton,sans-serif;font-size:48px;margin:0;letter-spacing:.5px}
-.tag{font-family:'Special Elite',monospace;color:var(--gold)}.listen{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
-.listen a{border:1px solid #3a322a;border-radius:999px;padding:8px 16px;text-decoration:none;color:var(--ink);font-weight:600}
-.ep{background:var(--card);border-radius:14px;padding:20px 22px;margin:16px 0}.no{font-family:'Special Elite',monospace;color:var(--red);font-size:14px}
-.ep h2{font-family:Anton,sans-serif;font-weight:400;font-size:26px;margin:6px 0 8px}.ep p{color:var(--muted);margin:0 0 12px}
-audio{width:100%}.meta{font-size:14px;color:var(--muted);margin-top:8px}nav a{margin-right:16px}
-</style></head><body><div class="wrap">
-<nav><a href="/">&larr; Rise &amp; Ruin home</a></nav>
-<header><img src="cover-3000.jpg" alt="Rise &amp; Ruin: Empire Files podcast cover with Rex, the cracked gold crown">
-<div><h1>RISE &amp; RUIN</h1><div class="tag">EMPIRE FILES &middot; THE PODCAST</div>
-<p>True stories of how business empires rise, and why they fall. Narrated with an AI voice, researched and fact-checked by our team.</p>
-<div class="listen"><a href="https://open.spotify.com/show/5EtW21URHxPjKVuXmQ3ueC">Listen on Spotify</a><a href="https://podcasts.apple.com/podcast/id6829391324">Listen on Apple Podcasts</a><a href="feed.xml">RSS feed</a><a href="https://www.youtube.com/@riseundruin">Watch on YouTube</a></div></div></header>
-    <article class="ep">
-      <div class="no">FILE 15</div>
+.pod-hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.pod-hero:before{content:"";position:absolute;inset:-40% -10% auto;height:120%;background:radial-gradient(closest-side,rgba(240,182,44,.22),transparent 70%);pointer-events:none}
+.pod-hero .wrap{position:relative;display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:48px;align-items:center;padding-top:56px;padding-bottom:56px}
+.cover{width:100%;height:auto;aspect-ratio:1/1;border-radius:18px;box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 1px #3a2e1c;transform:rotate(-2deg);transition:transform .4s}
+.cover:hover{transform:rotate(0) scale(1.02)}
+.pod-hero h1{margin:10px 0 12px}
+.pod-hero .lead{margin:0 0 22px}
+.listen{display:flex;flex-wrap:wrap;gap:10px}
+.lbtn{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:15px;padding:11px 18px 11px 12px;border-radius:999px;border:1px solid var(--line);background:var(--ink2);color:var(--cream);transition:border-color .2s,transform .2s}
+.lbtn:hover{border-color:var(--gold);transform:translateY(-1px)}
+.lbtn svg{width:24px;height:24px;flex:none}
+.lbtn.yt{background:var(--red);border-color:var(--red);color:#fff}
+.lbtn small{display:block;font-size:11px;font-weight:600;opacity:.75;letter-spacing:.4px;text-transform:uppercase;line-height:1}
+.lbtn span{line-height:1.15}
+.stats{display:flex;gap:22px;margin-top:22px;color:var(--muted);font-size:14px}
+.stats b{display:block;font:400 28px/1 Anton,sans-serif;color:var(--cream)}
+@media(max-width:760px){.pod-hero .wrap{grid-template-columns:1fr;gap:28px;padding-top:32px}.cover{max-width:220px}}
+
+.feat{display:grid;grid-template-columns:1.25fr 1fr;gap:0;background:var(--ink2);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-top:-1px}
+.feat-art{position:relative;min-height:260px;background:#000 center/cover no-repeat;cursor:pointer;border:0;padding:0}
+.feat-art:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 55%,var(--ink2))}
+.feat-body{padding:30px 32px}
+.feat .kicker{display:flex;align-items:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--red);box-shadow:0 0 0 4px rgba(206,38,38,.25)}
+.feat h2{color:var(--cream);font-size:clamp(26px,3vw,36px);margin:10px 0 10px;line-height:1.05}
+.feat p{color:var(--muted);margin:0 0 18px}
+.bigplay{display:inline-flex;align-items:center;gap:12px;border:0;cursor:pointer;background:var(--gold);color:var(--ink);font:700 16px Inter,sans-serif;padding:12px 22px 12px 14px;border-radius:999px}
+.bigplay i{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--gold);font-style:normal;font-size:14px}
+.bigplay:hover{filter:brightness(1.08)}
+.feat .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+@media(max-width:800px){.feat{grid-template-columns:1fr}.feat-art{min-height:200px;aspect-ratio:16/9}.feat-art:after{background:linear-gradient(0deg,var(--ink2),transparent 50%)}.feat-body{padding:22px}}
+
+.nudge{display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;margin:40px 0 0;padding:22px 26px;border-radius:14px;border:1px dashed #5a4416;background:repeating-linear-gradient(-45deg,#1a1512 0 12px,#1d1814 12px 24px)}
+.nudge h3{margin:0 0 4px;color:var(--cream);font-size:24px}
+.nudge p{margin:0;color:var(--muted)}
+
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:54px 0 18px}
+.sec-h h2{margin:0}
+.sec-h a{color:var(--muted);font-size:14px}
+.eps{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:18px}
+.ep{display:flex;flex-direction:column;background:var(--ink2);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:border-color .2s,transform .2s}
+.ep:hover{border-color:#5a4416;transform:translateY(-2px)}
+.ep.on{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+.ep-art{position:relative;aspect-ratio:16/9;padding:0;border:0;background:#000;cursor:pointer;display:block;width:100%}
+.ep-art img{width:100%;height:100%;object-fit:cover;opacity:.92;transition:opacity .2s}
+.ep-art:hover img{opacity:1}
+.ep-play{position:absolute;left:14px;bottom:14px;width:46px;height:46px;border-radius:50%;background:var(--gold);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.5);transition:transform .2s}
+.ep-play svg{width:20px;height:20px;fill:var(--ink);margin-left:2px}
+.ep-art:hover .ep-play{transform:scale(1.08)}
+.ep.on .ep-play svg{margin-left:0}
+.ep-len{position:absolute;right:12px;bottom:14px;background:rgba(0,0,0,.75);color:#fff;font:600 12px Inter,sans-serif;padding:4px 8px;border-radius:6px}
+.ep-body{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+.ep-no{font:13px 'Special Elite',monospace;color:var(--red);letter-spacing:1px}
+.ep h3{color:var(--cream);font-size:21px;line-height:1.15;margin:6px 0 8px}
+.ep p{color:var(--muted);font-size:14.5px;line-height:1.55;margin:0 0 16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ep-act{margin-top:auto;display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:transparent;color:var(--cream);font:600 13px Inter,sans-serif;padding:7px 12px;border-radius:999px;text-decoration:none;cursor:pointer}
+.chip:hover{border-color:var(--gold)}
+.chip.pl{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.chip.yt{border-color:#5c1d1d;color:#ffb3b3}
+
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(20,17,15,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);transform:translateY(110%);visibility:hidden;transition:transform .3s,visibility .3s}
+.bar.show{transform:none;visibility:visible}
+.bar .wrap{display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:center;height:76px}
+.bar img{width:86px;height:48px;object-fit:cover;border-radius:6px}
+.bar .meta{min-width:0}
+.bar .t{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .prog{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);margin-top:6px}
+.bar input[type=range]{flex:1;accent-color:var(--gold);height:4px}
+.bar .ctl{display:flex;gap:8px;align-items:center}
+.pp{width:44px;height:44px;border-radius:50%;border:0;background:var(--gold);color:var(--ink);font-size:16px;cursor:pointer}
+.skip{border:1px solid var(--line);background:transparent;color:var(--cream);border-radius:999px;padding:8px 10px;font:600 12px Inter,sans-serif;cursor:pointer}
+.bar .yt{background:var(--red);color:#fff;text-decoration:none;font:700 13px Inter,sans-serif;padding:10px 14px;border-radius:999px;white-space:nowrap}
+@media(max-width:700px){.bar img,.skip,.bar .yt span{display:none}.bar .wrap{grid-template-columns:1fr auto;height:70px}}
+body.playing{padding-bottom:80px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="/"><img src="/assets/crown.png" alt="">RISE <b>&amp;</b> RUIN</a>
+<nav><a href="/#episodes">Episodes</a><a href="/podcast/" aria-current="page" style="color:var(--cream)">Podcast</a><a href="/#newsletter">Newsletter</a><a class="sub" href="https://www.youtube.com/@riseundruin?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a></nav>
+</div></header>
+
+<section class="pod-hero"><div class="wrap">
+  <img class="cover" src="cover-3000.jpg" width="340" height="340" alt="Rise &amp; Ruin: Empire Files podcast cover with Rex, the cracked gold crown">
+  <div>
+    <div class="kicker">The podcast &middot; Empire Files</div>
+    <h1>Rise &amp; Ruin: Empire Files</h1>
+    <p class="lead">True stories of how business empires rise, and why they fall. One company per file: the climb, the moment it broke, and three lessons you can use. Researched and fact-checked by our team, narrated with an AI voice.</p>
+    <div class="listen">
+      <a class="lbtn" href="https://open.spotify.com/show/5EtW21URHxPjKVuXmQ3ueC" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#1DB954"/><path d="M6.5 9.3c3.8-1.1 8-.8 11.2 1M7.2 12.4c3.1-.9 6.6-.6 9.3.9M7.9 15.3c2.5-.6 5.1-.4 7.2.7" stroke="#0b0b0b" stroke-width="1.7" fill="none" stroke-linecap="round"/></svg><span><small>Listen on</small>Spotify</span></a>
+      <a class="lbtn" href="https://podcasts.apple.com/podcast/id6829391324" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#9b3fe0"/><circle cx="12" cy="10" r="2.6" fill="#fff"/><path d="M10.6 14h2.8l-.5 5.2h-1.8z" fill="#fff"/><path d="M7.4 14.6a6 6 0 1 1 9.2 0" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg><span><small>Listen on</small>Apple Podcasts</span></a>
+      <a class="lbtn yt" href="https://www.youtube.com/@riseundruin?sub_confirmation=1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="4.5" width="22" height="15" rx="4.5" fill="#fff"/><path d="M10 9v6l5.2-3z" fill="#ce2626"/></svg><span><small>Watch with visuals</small>YouTube</span></a>
+    </div>
+    <div class="stats"><div><b>15</b>files</div><div><b>99</b>minutes</div><div><b>Weekly</b>new files</div></div>
+  </div>
+</div></section>
+
+<main class="wrap" style="padding-bottom:70px">
+  <section class="feat" aria-label="Latest episode">
+    <button class="feat-art" type="button" data-play="15" aria-label="Play the latest episode" style="background-image:url('https://i.ytimg.com/vi/_VbSVRiAzDk/maxresdefault.jpg')"></button>
+    <div class="feat-body">
+      <div class="kicker"><span class="dot"></span>Latest file &middot; No. 15</div>
       <h2>Why Did Atari Fail? The Company That Buried Its Games in the Desert</h2>
       <p>Why did Atari fail? In September 1983, trucks dumped Atari game cartridges in a New Mexico landfill and workers poured concrete over them. One year earlier, Atari was bringing in about $2 billion a year.</p>
-      <audio controls preload="none" src="ep15-atari-v2.mp3"></audio>
-      <div class="meta">4:25 &middot; <a href="https://youtu.be/_VbSVRiAzDk">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 14</div>
-      <h2>Why Did Pan Am Fail? The Airline That Took Reservations for the Moon</h2>
-      <p>Why did Pan Am fail? More than 93,000 people signed up for Pan Am&#x27;s first flights to the Moon. Twenty years later, the airline that defined the jet age was gone.</p>
-      <audio controls preload="none" src="ep14-pan-am-v2.mp3"></audio>
-      <div class="meta">5:50 &middot; <a href="https://youtu.be/-kn_wGY0kfU">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 13</div>
-      <h2>Enron Was America&#x27;s Most Innovative Company. Its Profits Were Invented</h2>
-      <p>In August 2000, Enron&#x27;s stock hit $90. Fifteen months later it was worth 61 cents. Fortune had called it the most innovative large company in America. What it was really inventing was its profits.</p>
-      <audio controls preload="none" src="ep13-enron-v2.mp3"></audio>
-      <div class="meta">5:21 &middot; <a href="https://youtu.be/o1LHMGajD-s">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 12</div>
-      <h2>Lehman Brothers Survived 158 Years. It Didn&#x27;t Survive One Weekend</h2>
-      <p>On September 15, 2008, Lehman Brothers filed for bankruptcy with $639 billion in assets, the biggest bankruptcy in American history. The firm had lived through the Civil War and the Great Depression. It didn&#x27;t survive one weekend in 2008.</p>
-      <audio controls preload="none" src="ep12-lehman-v2.mp3"></audio>
-      <div class="meta">6:18 &middot; <a href="https://youtu.be/AaAzwIjWbww">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 11</div>
-      <h2>Sears Quit Selling From Home One Year Before Amazon</h2>
-      <p>In 1993, Sears shut down its famous catalog. One year later, Amazon was founded. Sears had been selling to people at home for a hundred years.</p>
-      <audio controls preload="none" src="ep11-sears-v2.mp3"></audio>
-      <div class="meta">5:52 &middot; <a href="https://youtu.be/e8OdW9-D-MI">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 10</div>
-      <h2>Toys R Us Was Bought With $5 Billion of Its Own Debt</h2>
-      <p>In 2005, three investment firms bought Toys R Us for $6.6 billion. More than $5 billion of it was borrowed, and the toy store itself had to pay it back. Twelve years later, Toys R Us was bankrupt. Six months after that, all 735 of its American stores were closing.</p>
-      <audio controls preload="none" src="ep10-toys-r-us-v2.mp3"></audio>
-      <div class="meta">5:28 &middot; <a href="https://youtu.be/PjyxjpOVxbk">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 09</div>
-      <h2>How Yahoo Introduced the World to Google</h2>
-      <p>In February 2008, Microsoft offered $44.6 billion for Yahoo. Yahoo said no. Eight years later, it agreed to sell its core internet business to Verizon for less than $5 billion.</p>
-      <audio controls preload="none" src="ep09-yahoo-v2.mp3"></audio>
-      <div class="meta">6:14 &middot; <a href="https://youtu.be/nLxWpRYVQbY">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 08</div>
-      <h2>Facebook Didn&#x27;t Kill MySpace. MySpace Did</h2>
-      <p>In July 2006, for one week, MySpace was the most visited website in America by one research firm&#x27;s count, ahead of Google and Yahoo. News Corp had bought it a year earlier for $580 million. In 2011, it sold MySpace for about $35 million.</p>
-      <audio controls preload="none" src="ep08-myspace-v2.mp3"></audio>
-      <div class="meta">6:42 &middot; <a href="https://youtu.be/FPAyYKlGgTo">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 07</div>
-      <h2>Tata Tried to Sell to Ford. 9 Years Later, It Bought Jaguar</h2>
-      <p>In 1999, Tata flew to Detroit to sell its struggling car business to Ford, and according to a Tata executive who was there, the meeting was humiliating. Nine years later, Ford was the one selling, and Tata bought Jaguar and Land Rover for $2.3 billion. Then the financial crisis hit.</p>
-      <audio controls preload="none" src="ep07-tata-v2.mp3"></audio>
-      <div class="meta">9:12 &middot; <a href="https://youtu.be/cfWkKZsRnEA">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 06</div>
-      <h2>WeWork: The $47 Billion Company That Rented Desks</h2>
-      <p>In 2019, WeWork was valued at $47 billion, the most valuable startup in America. It also owed about $47 billion in future rent. Six weeks after it filed to go public, its founder was gone and the IPO was dead.</p>
-      <audio controls preload="none" src="ep06-wework-v2.mp3"></audio>
-      <div class="meta">7:00 &middot; <a href="https://youtu.be/WuPvvEOoBPg">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 05</div>
-      <h2>Hollywood Spent $1.75 Billion on an App Nobody Wanted</h2>
-      <p>In April 2020, Quibi launched with $1.75 billion in funding, two of America&#x27;s most famous executives, Hollywood&#x27;s biggest stars, and a Super Bowl ad. Six months later, it announced it was shutting down.</p>
-      <audio controls preload="none" src="ep05-quibi-v2.mp3"></audio>
-      <div class="meta">5:30 &middot; <a href="https://youtu.be/HE49IGXmBNk">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 04</div>
-      <h2>BlackBerry Saw the iPhone Coming. Here&#x27;s Why It Still Lost</h2>
-      <p>In 2009, the President of the United States fought to keep his BlackBerry. Less than five years later, BlackBerry lost nearly a billion dollars in a single quarter and cut 40% of its workforce.</p>
-      <audio controls preload="none" src="ep04-blackberry-v2.mp3"></audio>
-      <div class="meta">6:47 &middot; <a href="https://youtu.be/NsDATijOlj4">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 03</div>
-      <h2>Kodak Invented the Digital Camera. So Why Did It Go Bankrupt?</h2>
-      <p>In 1975, a young Kodak engineer built the world&#x27;s first handheld digital camera. Management&#x27;s reaction, as he remembers it: &quot;That&#x27;s cute, but don&#x27;t tell anyone about it.&quot; Thirty six years later, Kodak filed for bankruptcy.</p>
-      <audio controls preload="none" src="ep03-kodak-v2.mp3"></audio>
-      <div class="meta">7:51 &middot; <a href="https://youtu.be/L-rbqfrCf7A">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 02</div>
-      <h2>Blockbuster Almost Beat Netflix. Here&#x27;s What Really Killed It</h2>
-      <p>In 2000, Netflix offered to sell itself to Blockbuster for $50 million, and Blockbuster said no. That&#x27;s the famous version. The real story is stranger: a few years later, Blockbuster was actually beating Netflix. Then it walked away from the plan that was working.</p>
-      <audio controls preload="none" src="ep02-blockbuster-v2.mp3"></audio>
-      <div class="meta">7:44 &middot; <a href="https://youtu.be/z1Ezcxj0Fhk">Watch on YouTube</a></div>
-    </article>
-    <article class="ep">
-      <div class="no">FILE 01</div>
-      <h2>How Nokia Lost 40% of the Phone Market</h2>
-      <p>In 2007, almost 4 in every 10 phones sold worldwide were Nokias. Less than seven years later, Nokia sold its entire phone business to Microsoft.</p>
-      <audio controls preload="none" src="ep01-nokia-v2.mp3"></audio>
-      <div class="meta">7:47 &middot; <a href="https://youtu.be/382xIEf105Y">Watch on YouTube</a></div>
-    </article>
-</div></body></html>
+      <div class="row">
+        <button class="bigplay" type="button" data-play="15"><i>&#9654;</i>Play episode &middot; 4:28</button>
+        <a class="chip yt" href="https://youtu.be/_VbSVRiAzDk" target="_blank" rel="noopener">Watch with visuals</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="nudge">
+    <div><h3>Hear it here. See it on YouTube.</h3><p>Every Empire File is a video first: the real photos, the documents and the numbers, on screen as the story unfolds.</p></div>
+    <a class="btn red" href="https://www.youtube.com/@riseundruin?sub_confirmation=1" target="_blank" rel="noopener">&#9654;&nbsp; Subscribe on YouTube</a>
+  </div>
+
+  <div class="sec-h"><h2>All Empire Files</h2><a href="feed.xml">RSS feed</a></div>
+  <div class="eps">
+<article class="ep" data-n="15">
+  <button class="ep-art" type="button" data-play="15" aria-label="Play episode 15: Why Did Atari Fail? The Company That Buried Its Games in the Desert">
+    <img loading="lazy" src="https://i.ytimg.com/vi/_VbSVRiAzDk/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/_VbSVRiAzDk/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">4:28</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 15</div>
+    <h3>Why Did Atari Fail? The Company That Buried Its Games in the Desert</h3>
+    <p>Why did Atari fail? In September 1983, trucks dumped Atari game cartridges in a New Mexico landfill and workers poured concrete over them. One year earlier, Atari was bringing in about $2 billion a year.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="15">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/_VbSVRiAzDk" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/atari/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="14">
+  <button class="ep-art" type="button" data-play="14" aria-label="Play episode 14: Why Did Pan Am Fail? The Airline That Took Reservations for the Moon">
+    <img loading="lazy" src="https://i.ytimg.com/vi/-kn_wGY0kfU/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/-kn_wGY0kfU/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">5:53</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 14</div>
+    <h3>Why Did Pan Am Fail? The Airline That Took Reservations for the Moon</h3>
+    <p>Why did Pan Am fail? More than 93,000 people signed up for Pan Am&#x27;s first flights to the Moon. Twenty years later, the airline that defined the jet age was gone.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="14">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/-kn_wGY0kfU" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/pan-am/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="13">
+  <button class="ep-art" type="button" data-play="13" aria-label="Play episode 13: Enron Was America&#x27;s Most Innovative Company. Its Profits Were Invented">
+    <img loading="lazy" src="https://i.ytimg.com/vi/o1LHMGajD-s/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/o1LHMGajD-s/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">5:24</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 13</div>
+    <h3>Enron Was America&#x27;s Most Innovative Company. Its Profits Were Invented</h3>
+    <p>In August 2000, Enron&#x27;s stock hit $90. Fifteen months later it was worth 61 cents. Fortune had called it the most innovative large company in America. What it was really inventing was its profits.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="13">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/o1LHMGajD-s" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/enron/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="12">
+  <button class="ep-art" type="button" data-play="12" aria-label="Play episode 12: Lehman Brothers Survived 158 Years. It Didn&#x27;t Survive One Weekend">
+    <img loading="lazy" src="https://i.ytimg.com/vi/AaAzwIjWbww/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/AaAzwIjWbww/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">6:21</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 12</div>
+    <h3>Lehman Brothers Survived 158 Years. It Didn&#x27;t Survive One Weekend</h3>
+    <p>On September 15, 2008, Lehman Brothers filed for bankruptcy with $639 billion in assets, the biggest bankruptcy in American history. The firm had lived through the Civil War and the Great Depression. It didn&#x27;t survive one weekend in 2008.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="12">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/AaAzwIjWbww" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/lehman-brothers/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="11">
+  <button class="ep-art" type="button" data-play="11" aria-label="Play episode 11: Sears Quit Selling From Home One Year Before Amazon">
+    <img loading="lazy" src="https://i.ytimg.com/vi/e8OdW9-D-MI/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/e8OdW9-D-MI/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">5:55</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 11</div>
+    <h3>Sears Quit Selling From Home One Year Before Amazon</h3>
+    <p>In 1993, Sears shut down its famous catalog. One year later, Amazon was founded. Sears had been selling to people at home for a hundred years.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="11">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/e8OdW9-D-MI" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/sears/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="10">
+  <button class="ep-art" type="button" data-play="10" aria-label="Play episode 10: Toys R Us Was Bought With $5 Billion of Its Own Debt">
+    <img loading="lazy" src="https://i.ytimg.com/vi/PjyxjpOVxbk/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/PjyxjpOVxbk/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">5:31</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 10</div>
+    <h3>Toys R Us Was Bought With $5 Billion of Its Own Debt</h3>
+    <p>In 2005, three investment firms bought Toys R Us for $6.6 billion. More than $5 billion of it was borrowed, and the toy store itself had to pay it back. Twelve years later, Toys R Us was bankrupt. Six months after that, all 735 of its American stores were closing.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="10">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/PjyxjpOVxbk" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/toys-r-us/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="9">
+  <button class="ep-art" type="button" data-play="9" aria-label="Play episode 9: How Yahoo Introduced the World to Google">
+    <img loading="lazy" src="https://i.ytimg.com/vi/nLxWpRYVQbY/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/nLxWpRYVQbY/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">6:17</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 09</div>
+    <h3>How Yahoo Introduced the World to Google</h3>
+    <p>In February 2008, Microsoft offered $44.6 billion for Yahoo. Yahoo said no. Eight years later, it agreed to sell its core internet business to Verizon for less than $5 billion.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="9">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/nLxWpRYVQbY" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/yahoo/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="8">
+  <button class="ep-art" type="button" data-play="8" aria-label="Play episode 8: Facebook Didn&#x27;t Kill MySpace. MySpace Did">
+    <img loading="lazy" src="https://i.ytimg.com/vi/FPAyYKlGgTo/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/FPAyYKlGgTo/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">6:45</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 08</div>
+    <h3>Facebook Didn&#x27;t Kill MySpace. MySpace Did</h3>
+    <p>In July 2006, for one week, MySpace was the most visited website in America by one research firm&#x27;s count, ahead of Google and Yahoo. News Corp had bought it a year earlier for $580 million. In 2011, it sold MySpace for about $35 million.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="8">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/FPAyYKlGgTo" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/myspace/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="7">
+  <button class="ep-art" type="button" data-play="7" aria-label="Play episode 7: Tata Tried to Sell to Ford. 9 Years Later, It Bought Jaguar">
+    <img loading="lazy" src="https://i.ytimg.com/vi/cfWkKZsRnEA/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/cfWkKZsRnEA/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">9:15</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 07</div>
+    <h3>Tata Tried to Sell to Ford. 9 Years Later, It Bought Jaguar</h3>
+    <p>In 1999, Tata flew to Detroit to sell its struggling car business to Ford, and according to a Tata executive who was there, the meeting was humiliating. Nine years later, Ford was the one selling, and Tata bought Jaguar and Land Rover for $2.3 billion. Then the financial crisis hit.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="7">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/cfWkKZsRnEA" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/tata-jlr/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="6">
+  <button class="ep-art" type="button" data-play="6" aria-label="Play episode 6: WeWork: The $47 Billion Company That Rented Desks">
+    <img loading="lazy" src="https://i.ytimg.com/vi/WuPvvEOoBPg/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/WuPvvEOoBPg/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">7:03</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 06</div>
+    <h3>WeWork: The $47 Billion Company That Rented Desks</h3>
+    <p>In 2019, WeWork was valued at $47 billion, the most valuable startup in America. It also owed about $47 billion in future rent. Six weeks after it filed to go public, its founder was gone and the IPO was dead.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="6">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/WuPvvEOoBPg" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/wework/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="5">
+  <button class="ep-art" type="button" data-play="5" aria-label="Play episode 5: Hollywood Spent $1.75 Billion on an App Nobody Wanted">
+    <img loading="lazy" src="https://i.ytimg.com/vi/HE49IGXmBNk/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/HE49IGXmBNk/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">5:34</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 05</div>
+    <h3>Hollywood Spent $1.75 Billion on an App Nobody Wanted</h3>
+    <p>In April 2020, Quibi launched with $1.75 billion in funding, two of America&#x27;s most famous executives, Hollywood&#x27;s biggest stars, and a Super Bowl ad. Six months later, it announced it was shutting down.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="5">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/HE49IGXmBNk" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/quibi/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="4">
+  <button class="ep-art" type="button" data-play="4" aria-label="Play episode 4: BlackBerry Saw the iPhone Coming. Here&#x27;s Why It Still Lost">
+    <img loading="lazy" src="https://i.ytimg.com/vi/NsDATijOlj4/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/NsDATijOlj4/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">6:50</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 04</div>
+    <h3>BlackBerry Saw the iPhone Coming. Here&#x27;s Why It Still Lost</h3>
+    <p>In 2009, the President of the United States fought to keep his BlackBerry. Less than five years later, BlackBerry lost nearly a billion dollars in a single quarter and cut 40% of its workforce.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="4">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/NsDATijOlj4" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/blackberry/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="3">
+  <button class="ep-art" type="button" data-play="3" aria-label="Play episode 3: Kodak Invented the Digital Camera. So Why Did It Go Bankrupt?">
+    <img loading="lazy" src="https://i.ytimg.com/vi/L-rbqfrCf7A/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/L-rbqfrCf7A/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">7:54</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 03</div>
+    <h3>Kodak Invented the Digital Camera. So Why Did It Go Bankrupt?</h3>
+    <p>In 1975, a young Kodak engineer built the world&#x27;s first handheld digital camera. Management&#x27;s reaction, as he remembers it: &quot;That&#x27;s cute, but don&#x27;t tell anyone about it.&quot; Thirty six years later, Kodak filed for bankruptcy.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="3">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/L-rbqfrCf7A" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/kodak/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="2">
+  <button class="ep-art" type="button" data-play="2" aria-label="Play episode 2: Blockbuster Almost Beat Netflix. Here&#x27;s What Really Killed It">
+    <img loading="lazy" src="https://i.ytimg.com/vi/z1Ezcxj0Fhk/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/z1Ezcxj0Fhk/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">7:48</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 02</div>
+    <h3>Blockbuster Almost Beat Netflix. Here&#x27;s What Really Killed It</h3>
+    <p>In 2000, Netflix offered to sell itself to Blockbuster for $50 million, and Blockbuster said no. That&#x27;s the famous version. The real story is stranger: a few years later, Blockbuster was actually beating Netflix. Then it walked away from the plan that was working.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="2">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/z1Ezcxj0Fhk" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/blockbuster/">Read the file</a>
+    </div>
+  </div>
+</article>
+<article class="ep" data-n="1">
+  <button class="ep-art" type="button" data-play="1" aria-label="Play episode 1: How Nokia Lost 40% of the Phone Market">
+    <img loading="lazy" src="https://i.ytimg.com/vi/382xIEf105Y/maxresdefault.jpg" alt="" onerror="this.src='https://i.ytimg.com/vi/382xIEf105Y/hqdefault.jpg'">
+    <span class="ep-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="ep-len">7:50</span>
+  </button>
+  <div class="ep-body">
+    <div class="ep-no">FILE 01</div>
+    <h3>How Nokia Lost 40% of the Phone Market</h3>
+    <p>In 2007, almost 4 in every 10 phones sold worldwide were Nokias. Less than seven years later, Nokia sold its entire phone business to Microsoft.</p>
+    <div class="ep-act">
+      <button class="chip pl" type="button" data-play="1">&#9654; Listen</button>
+      <a class="chip yt" href="https://youtu.be/382xIEf105Y" target="_blank" rel="noopener">Watch with visuals</a>
+      <a class="chip" href="/files/nokia/">Read the file</a>
+    </div>
+  </div>
+</article>
+  </div>
+
+  <section class="blk"><div class="brief" id="brief">
+    <div class="brief-txt"><div class="kicker">Free newsletter</div><h2>The Empire Brief</h2>
+    <p>Every new Empire File in your inbox: one company, how it rose, why it fell, and the three lessons behind it. No spam, unsubscribe anytime.</p></div>
+    <form class="brief-form" action="https://app.kit.com/forms/10124925/subscriptions" method="post">
+      <label class="sr" for="brief-email-pod">Email address</label>
+      <input id="brief-email-pod" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required>
+      <button type="submit">Open the files</button>
+    </form>
+  </div></section>
+</main>
+
+<div class="bar" id="bar" role="region" aria-label="Audio player"><div class="wrap">
+  <img id="bimg" src="" alt="">
+  <div class="meta"><div class="t" id="btitle">&nbsp;</div>
+    <div class="prog"><span id="bcur">0:00</span><input id="bseek" type="range" min="0" max="1000" value="0" aria-label="Seek"><span id="bdur">0:00</span></div></div>
+  <div class="ctl"><button class="skip" id="bback" type="button" aria-label="Back 15 seconds">&minus;15</button>
+    <button class="pp" id="bpp" type="button" aria-label="Play or pause">&#10074;&#10074;</button>
+    <button class="skip" id="bfwd" type="button" aria-label="Forward 30 seconds">+30</button>
+    <a class="yt" id="byt" href="#" target="_blank" rel="noopener">&#9654;<span>&nbsp;Watch</span></a></div>
+</div></div>
+<audio id="aud" preload="none"></audio>
+
+<footer><div class="wrap">
+<div>&copy; 2026 Rise &amp; Ruin. Narration is AI-generated; research, scripts and animation are original.</div>
+<div><a href="/standards.html">Standards</a><a href="/press.html">Press</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></div>
+</div></footer>
+<script>
+(function(){
+var EPS=[{"n": 15, "title": "Why Did Atari Fail? The Company That Buried Its Games in the Desert", "src": "ep15-atari-v2.mp3", "yt": "_VbSVRiAzDk", "img": "https://i.ytimg.com/vi/_VbSVRiAzDk/maxresdefault.jpg"}, {"n": 14, "title": "Why Did Pan Am Fail? The Airline That Took Reservations for the Moon", "src": "ep14-pan-am-v2.mp3", "yt": "-kn_wGY0kfU", "img": "https://i.ytimg.com/vi/-kn_wGY0kfU/maxresdefault.jpg"}, {"n": 13, "title": "Enron Was America's Most Innovative Company. Its Profits Were Invented", "src": "ep13-enron-v2.mp3", "yt": "o1LHMGajD-s", "img": "https://i.ytimg.com/vi/o1LHMGajD-s/maxresdefault.jpg"}, {"n": 12, "title": "Lehman Brothers Survived 158 Years. It Didn't Survive One Weekend", "src": "ep12-lehman-v2.mp3", "yt": "AaAzwIjWbww", "img": "https://i.ytimg.com/vi/AaAzwIjWbww/maxresdefault.jpg"}, {"n": 11, "title": "Sears Quit Selling From Home One Year Before Amazon", "src": "ep11-sears-v2.mp3", "yt": "e8OdW9-D-MI", "img": "https://i.ytimg.com/vi/e8OdW9-D-MI/maxresdefault.jpg"}, {"n": 10, "title": "Toys R Us Was Bought With $5 Billion of Its Own Debt", "src": "ep10-toys-r-us-v2.mp3", "yt": "PjyxjpOVxbk", "img": "https://i.ytimg.com/vi/PjyxjpOVxbk/maxresdefault.jpg"}, {"n": 9, "title": "How Yahoo Introduced the World to Google", "src": "ep09-yahoo-v2.mp3", "yt": "nLxWpRYVQbY", "img": "https://i.ytimg.com/vi/nLxWpRYVQbY/maxresdefault.jpg"}, {"n": 8, "title": "Facebook Didn't Kill MySpace. MySpace Did", "src": "ep08-myspace-v2.mp3", "yt": "FPAyYKlGgTo", "img": "https://i.ytimg.com/vi/FPAyYKlGgTo/maxresdefault.jpg"}, {"n": 7, "title": "Tata Tried to Sell to Ford. 9 Years Later, It Bought Jaguar", "src": "ep07-tata-v2.mp3", "yt": "cfWkKZsRnEA", "img": "https://i.ytimg.com/vi/cfWkKZsRnEA/maxresdefault.jpg"}, {"n": 6, "title": "WeWork: The $47 Billion Company That Rented Desks", "src": "ep06-wework-v2.mp3", "yt": "WuPvvEOoBPg", "img": "https://i.ytimg.com/vi/WuPvvEOoBPg/maxresdefault.jpg"}, {"n": 5, "title": "Hollywood Spent $1.75 Billion on an App Nobody Wanted", "src": "ep05-quibi-v2.mp3", "yt": "HE49IGXmBNk", "img": "https://i.ytimg.com/vi/HE49IGXmBNk/maxresdefault.jpg"}, {"n": 4, "title": "BlackBerry Saw the iPhone Coming. Here's Why It Still Lost", "src": "ep04-blackberry-v2.mp3", "yt": "NsDATijOlj4", "img": "https://i.ytimg.com/vi/NsDATijOlj4/maxresdefault.jpg"}, {"n": 3, "title": "Kodak Invented the Digital Camera. So Why Did It Go Bankrupt?", "src": "ep03-kodak-v2.mp3", "yt": "L-rbqfrCf7A", "img": "https://i.ytimg.com/vi/L-rbqfrCf7A/maxresdefault.jpg"}, {"n": 2, "title": "Blockbuster Almost Beat Netflix. Here's What Really Killed It", "src": "ep02-blockbuster-v2.mp3", "yt": "z1Ezcxj0Fhk", "img": "https://i.ytimg.com/vi/z1Ezcxj0Fhk/maxresdefault.jpg"}, {"n": 1, "title": "How Nokia Lost 40% of the Phone Market", "src": "ep01-nokia-v2.mp3", "yt": "382xIEf105Y", "img": "https://i.ytimg.com/vi/382xIEf105Y/maxresdefault.jpg"}],A=document.getElementById('aud'),bar=document.getElementById('bar'),pp=document.getElementById('bpp'),seek=document.getElementById('bseek'),cur=null;
+function f(s){s=Math.floor(s||0);return Math.floor(s/60)+':'+('0'+s%60).slice(-2)}
+function mark(){document.querySelectorAll('.ep').forEach(function(c){c.classList.toggle('on',cur&&+c.dataset.n===cur.n)});
+  document.querySelectorAll('.ep-play svg').forEach(function(s){var on=cur&&+s.closest('.ep').dataset.n===cur.n&&!A.paused;s.innerHTML=on?'<path d="M7 5h4v14H7zM13 5h4v14h-4z"/>':'<path d="M8 5v14l11-7z"/>'});
+  pp.innerHTML=A.paused?'&#9654;':'&#10074;&#10074;'}
+function play(n){var e=EPS.find(function(x){return x.n===n});if(!e)return;
+  if(cur&&cur.n===n){A.paused?A.play():A.pause();return}
+  cur=e;A.src=e.src;A.play();bar.classList.add('show');document.body.classList.add('playing');
+  document.getElementById('btitle').textContent='File '+('0'+e.n).slice(-2)+' · '+e.title;
+  document.getElementById('bimg').src=e.img;document.getElementById('byt').href='https://youtu.be/'+e.yt;
+  try{if('mediaSession' in navigator)navigator.mediaSession.metadata=new MediaMetadata({title:e.title,artist:'Rise & Ruin',artwork:[{src:'cover-3000.jpg',sizes:'3000x3000',type:'image/jpeg'}]})}catch(x){}}
+document.querySelectorAll('[data-play]').forEach(function(b){b.addEventListener('click',function(){play(+b.dataset.play)})});
+pp.onclick=function(){if(!cur)return;A.paused?A.play():A.pause()};
+document.getElementById('bback').onclick=function(){A.currentTime=Math.max(0,A.currentTime-15)};
+document.getElementById('bfwd').onclick=function(){A.currentTime=Math.min(A.duration||0,A.currentTime+30)};
+A.addEventListener('play',mark);A.addEventListener('pause',mark);
+A.addEventListener('timeupdate',function(){document.getElementById('bcur').textContent=f(A.currentTime);document.getElementById('bdur').textContent=f(A.duration);if(A.duration)seek.value=A.currentTime/A.duration*1000});
+seek.addEventListener('input',function(){if(A.duration)A.currentTime=seek.value/1000*A.duration});
+A.addEventListener('ended',function(){var i=EPS.findIndex(function(x){return x.n===cur.n});if(i+1<EPS.length)play(EPS[i+1].n);else mark()});
+})();
+</script>
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ddb397b8679e4fa0b17dead68ada088c"}'></script>
+</body>
+</html>
