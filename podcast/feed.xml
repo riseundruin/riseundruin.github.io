@@ -17,7 +17,7 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <podcast:locked owner="afsary.junaid+riseundruin@gmail.com">yes</podcast:locked>
-    <lastBuildDate>Sun, 01 Nov 2026 06:33:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 07:32:58 +0000</lastBuildDate>
     <item>
       <title>Why Did Atari Fail? The Company That Buried Its Games in the Desert</title>
       <itunes:title>Why Did Atari Fail? The Company That Buried Its Games in the Desert</itunes:title>
@@ -44,8 +44,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/_VbSVRiAzDk</link>
       <guid isPermaLink="false">riseundruin-podcast-ep15-atari</guid>
       <pubDate>Sat, 31 Oct 2026 13:00:32 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep15-atari.mp3" length="3177210" type="audio/mpeg"/>
-      <itunes:duration>00:04:25</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep15-atari-v2.mp3" length="3216393" type="audio/mpeg"/>
+      <itunes:duration>00:04:28</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -79,8 +79,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/-kn_wGY0kfU</link>
       <guid isPermaLink="false">riseundruin-podcast-ep14-pan-am</guid>
       <pubDate>Tue, 27 Oct 2026 13:00:22 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep14-pan-am.mp3" length="4196613" type="audio/mpeg"/>
-      <itunes:duration>00:05:50</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep14-pan-am-v2.mp3" length="4235797" type="audio/mpeg"/>
+      <itunes:duration>00:05:53</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -108,8 +108,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/o1LHMGajD-s</link>
       <guid isPermaLink="false">riseundruin-podcast-ep13-enron</guid>
       <pubDate>Sat, 24 Oct 2026 13:00:38 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep13-enron.mp3" length="3853053" type="audio/mpeg"/>
-      <itunes:duration>00:05:21</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep13-enron-v2.mp3" length="3892236" type="audio/mpeg"/>
+      <itunes:duration>00:05:24</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -137,8 +137,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/AaAzwIjWbww</link>
       <guid isPermaLink="false">riseundruin-podcast-ep12-lehman</guid>
       <pubDate>Wed, 21 Oct 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep12-lehman.mp3" length="4531709" type="audio/mpeg"/>
-      <itunes:duration>00:06:18</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep12-lehman-v2.mp3" length="4570893" type="audio/mpeg"/>
+      <itunes:duration>00:06:21</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -169,8 +169,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/e8OdW9-D-MI</link>
       <guid isPermaLink="false">riseundruin-podcast-ep11-sears</guid>
       <pubDate>Sun, 18 Oct 2026 13:00:15 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep11-sears.mp3" length="4219166" type="audio/mpeg"/>
-      <itunes:duration>00:05:52</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep11-sears-v2.mp3" length="4258350" type="audio/mpeg"/>
+      <itunes:duration>00:05:55</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -201,8 +201,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/PjyxjpOVxbk</link>
       <guid isPermaLink="false">riseundruin-podcast-ep10-toys-r-us</guid>
       <pubDate>Thu, 15 Oct 2026 05:01:40 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep10-toys-r-us.mp3" length="3936418" type="audio/mpeg"/>
-      <itunes:duration>00:05:28</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep10-toys-r-us-v2.mp3" length="3975601" type="audio/mpeg"/>
+      <itunes:duration>00:05:31</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -235,8 +235,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/nLxWpRYVQbY</link>
       <guid isPermaLink="false">riseundruin-podcast-ep09-yahoo</guid>
       <pubDate>Thu, 15 Oct 2026 04:05:07 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep09-yahoo.mp3" length="4488738" type="audio/mpeg"/>
-      <itunes:duration>00:06:14</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep09-yahoo-v2.mp3" length="4527921" type="audio/mpeg"/>
+      <itunes:duration>00:06:17</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -270,8 +270,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/FPAyYKlGgTo</link>
       <guid isPermaLink="false">riseundruin-podcast-ep08-myspace</guid>
       <pubDate>Sun, 11 Oct 2026 16:45:55 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep08-myspace.mp3" length="4824464" type="audio/mpeg"/>
-      <itunes:duration>00:06:42</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep08-myspace-v2.mp3" length="4863648" type="audio/mpeg"/>
+      <itunes:duration>00:06:45</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -310,8 +310,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/cfWkKZsRnEA</link>
       <guid isPermaLink="false">riseundruin-podcast-ep07-tata</guid>
       <pubDate>Sun, 11 Oct 2026 05:59:12 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep07-tata.mp3" length="6621289" type="audio/mpeg"/>
-      <itunes:duration>00:09:12</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep07-tata-v2.mp3" length="6660473" type="audio/mpeg"/>
+      <itunes:duration>00:09:15</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -343,8 +343,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/WuPvvEOoBPg</link>
       <guid isPermaLink="false">riseundruin-podcast-ep06-wework</guid>
       <pubDate>Thu, 24 Sep 2026 15:32:46 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep06-wework.mp3" length="5035751" type="audio/mpeg"/>
-      <itunes:duration>00:07:00</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep06-wework-v2.mp3" length="5074934" type="audio/mpeg"/>
+      <itunes:duration>00:07:03</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -373,8 +373,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/HE49IGXmBNk</link>
       <guid isPermaLink="false">riseundruin-podcast-ep05-quibi</guid>
       <pubDate>Thu, 24 Sep 2026 14:46:42 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep05-quibi.mp3" length="3966197" type="audio/mpeg"/>
-      <itunes:duration>00:05:30</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep05-quibi-v2.mp3" length="4005381" type="audio/mpeg"/>
+      <itunes:duration>00:05:34</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -405,8 +405,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/NsDATijOlj4</link>
       <guid isPermaLink="false">riseundruin-podcast-ep04-blackberry</guid>
       <pubDate>Thu, 24 Sep 2026 14:08:49 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep04-blackberry.mp3" length="4879652" type="audio/mpeg"/>
-      <itunes:duration>00:06:47</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep04-blackberry-v2.mp3" length="4918836" type="audio/mpeg"/>
+      <itunes:duration>00:06:50</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -440,8 +440,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/L-rbqfrCf7A</link>
       <guid isPermaLink="false">riseundruin-podcast-ep03-kodak</guid>
       <pubDate>Thu, 24 Sep 2026 13:33:24 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep03-kodak.mp3" length="5647028" type="audio/mpeg"/>
-      <itunes:duration>00:07:51</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep03-kodak-v2.mp3" length="5686212" type="audio/mpeg"/>
+      <itunes:duration>00:07:54</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -475,8 +475,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/z1Ezcxj0Fhk</link>
       <guid isPermaLink="false">riseundruin-podcast-ep02-blockbuster</guid>
       <pubDate>Thu, 24 Sep 2026 12:56:15 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep02-blockbuster.mp3" length="5572422" type="audio/mpeg"/>
-      <itunes:duration>00:07:44</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep02-blockbuster-v2.mp3" length="5611606" type="audio/mpeg"/>
+      <itunes:duration>00:07:48</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
@@ -510,8 +510,8 @@ Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin te
       <link>https://youtu.be/382xIEf105Y</link>
       <guid isPermaLink="false">riseundruin-podcast-ep01-nokia</guid>
       <pubDate>Thu, 24 Sep 2026 12:27:03 +0000</pubDate>
-      <enclosure url="https://riseundruin.github.io/podcast/ep01-nokia.mp3" length="5605000" type="audio/mpeg"/>
-      <itunes:duration>00:07:47</itunes:duration>
+      <enclosure url="https://riseundruin.github.io/podcast/ep01-nokia-v2.mp3" length="5644184" type="audio/mpeg"/>
+      <itunes:duration>00:07:50</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
     </item>
