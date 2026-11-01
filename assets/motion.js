@@ -88,9 +88,15 @@
   [].slice.call(d.querySelectorAll('section h2')).forEach(function (h) {
     if (h.closest('.hero')) return;
     var txt = h.textContent; h.textContent = ''; h.classList.add('v2-h'); h.setAttribute('aria-label', txt);
-    txt.split('').forEach(function (c, i) {
-      var s = d.createElement('span'); s.className = 'ch'; s.setAttribute('aria-hidden', 'true');
-      s.textContent = c === ' ' ? ' ' : c; s.style.transitionDelay = (i * 0.025) + 's'; h.appendChild(s);
+    var k = 0;
+    txt.split(/(\s+)/).forEach(function (word) {
+      if (!word) return;
+      if (!word.trim()) { h.appendChild(d.createTextNode(' ')); return; }
+      var wd = d.createElement('span'); wd.style.display = 'inline-block'; wd.style.whiteSpace = 'nowrap'; wd.setAttribute('aria-hidden', 'true');
+      word.split('').forEach(function (c) {
+        var s = d.createElement('span'); s.className = 'ch'; s.textContent = c; s.style.transitionDelay = (k++ * 0.025) + 's'; wd.appendChild(s);
+      });
+      h.appendChild(wd);
     });
     watch(h);
   });
