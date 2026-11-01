@@ -226,6 +226,33 @@ body.bar-on.bar-away .pbar{transform:translateY(110%)}
 .pbar a{flex:1;text-align:center;background:var(--gold);color:#14110f;text-decoration:none;font:700 15px Inter,sans-serif;padding:13px 16px;border-radius:999px}
 .pbar button{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--muted);font:400 22px/1 Inter,sans-serif;cursor:pointer}
 .pbar button:hover{color:var(--cream);border-color:var(--muted)}
+
+/* Cause-of-death autopsy board (Vista) */
+.aut{display:block}
+.aut-bar{display:flex;gap:6px;height:96px;margin-bottom:18px}
+.aut-seg{position:relative;min-width:150px;flex-basis:0;border:0;border-radius:10px;cursor:pointer;color:#14110f;text-align:left;padding:12px 14px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;opacity:.55;transition:opacity .25s,transform .25s,flex-grow .4s;font:inherit}
+.aut-seg.s0{background:#ce2626;color:#fff}.aut-seg.s1{background:#f0b62c}.aut-seg.s2{background:#f6eede}.aut-seg.s3{background:#8a6a2a;color:#fff}
+.aut-seg b{font:400 36px/1 Anton,sans-serif}.aut-seg span{font:700 13px Inter,sans-serif;letter-spacing:.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.aut-seg i{position:absolute;right:12px;top:12px;font:700 12px Inter,sans-serif;font-style:normal;opacity:.8}
+.aut-seg:hover,.aut-seg.on{opacity:1}.aut-seg.on{transform:translateY(-4px);box-shadow:0 14px 30px rgba(0,0,0,.45)}
+.aut-case{position:relative;display:grid;grid-template-columns:minmax(260px,.9fr) 1.6fr;gap:32px;align-items:center;background:var(--ink2) repeating-linear-gradient(0deg,transparent 0 31px,rgba(255,255,255,.025) 31px 32px);border:1px solid var(--line);border-radius:16px;padding:32px;min-height:330px;overflow:hidden}
+.aut-case:before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:#ce2626}
+.aut-case.c1:before{background:#f0b62c}.aut-case.c2:before{background:#f6eede}.aut-case.c3:before{background:#8a6a2a}
+.aut-k{font:14px 'Special Elite',monospace;color:var(--red);letter-spacing:1px;text-transform:uppercase}
+.aut-case h3{font:400 clamp(34px,4.4vw,54px)/1 Anton,sans-serif;color:var(--cream);margin:10px 0 12px;letter-spacing:.5px}
+.aut-case p{color:var(--muted);margin:0 0 18px;font-size:16px}
+.aut-meta{display:flex;gap:22px;margin-bottom:20px;color:var(--muted);font-size:13px}.aut-meta b{display:block;font:400 26px/1 Anton,sans-serif;color:var(--gold)}
+.aut-go{border:0;border-radius:999px;background:var(--gold);color:#14110f;font:700 14px Inter,sans-serif;padding:12px 20px;cursor:pointer}.aut-go:hover{filter:brightness(1.08)}
+.aut-r{display:flex;flex-wrap:wrap;gap:16px 14px;justify-content:center;align-content:center}
+.aut-pol{width:150px;background:#f3ecdc;padding:7px 7px 0;border-radius:3px;box-shadow:0 10px 24px rgba(0,0,0,.5);transform:rotate(var(--r));text-decoration:none;animation:pol .45s both;transition:transform .2s}
+.aut-pol:hover{transform:rotate(0) scale(1.07);z-index:2}
+.aut-pol img{width:100%;aspect-ratio:16/9;object-fit:cover;filter:grayscale(.35) contrast(1.05)}
+.aut-pol span{display:block;font:13px 'Special Elite',monospace;color:#2a231c;padding:6px 2px 8px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@keyframes pol{from{opacity:0;transform:translateY(18px) rotate(0)}to{opacity:1}}
+.aut-stamp{position:absolute;right:26px;bottom:18px;font:400 18px Anton,sans-serif;letter-spacing:2px;text-transform:uppercase;color:rgba(206,38,38,.55);border:3px solid rgba(206,38,38,.45);border-radius:6px;padding:4px 12px;transform:rotate(-8deg);pointer-events:none}
+@media(max-width:820px){.aut-bar{height:auto;flex-direction:column}.aut-seg{flex-direction:row;align-items:center;gap:12px;padding:10px 14px;flex-grow:0!important}.aut-seg i{position:static;margin-left:auto}
+.aut-case{grid-template-columns:1fr;padding:24px 20px 56px}.aut-pol{width:calc(50% - 10px)}}
+@media(prefers-reduced-motion:reduce){.aut-pol{animation:none}}
 </style>
 </head>
 <body>
@@ -393,13 +420,29 @@ const counts={};live.forEach(e=>counts[e.p]=(counts[e.p]||0)+1);
 [['all','All files',live.length]].concat(Object.keys(PAT).filter(k=>counts[k]).map(k=>[k,PAT[k].t,counts[k]])).forEach(([k,l,c])=>{
 const b=document.createElement('button');b.className='chip'+(k==='all'?' on':'');b.dataset.k=k;b.innerHTML=l+'<i>'+c+'</i>';b.onclick=()=>setPat(k);chips.insertBefore(b,q);});
 q.oninput=()=>render();render();
-// patterns
-const pats=document.getElementById('pats');
-['shift','debt','fraud','hype'].filter(k=>counts[k]).forEach(k=>{const b=document.createElement('button');b.className='pcard rv';
-b.innerHTML='<div class="num">'+counts[k]+'</div><h3></h3><p></p><div class="who"></div>';
-b.querySelector('h3').textContent=PAT[k].t;b.querySelector('p').textContent=PAT[k].d;
-b.querySelector('.who').textContent=live.filter(e=>e.p===k).map(e=>e.co).join(', ');
-b.onclick=()=>{setPat(k);document.getElementById('episodes').scrollIntoView();};pats.appendChild(b);});
+// patterns: "Cause of death" autopsy board (Vista, Nov 1)
+const pats=document.getElementById('pats');pats.className='aut';
+const PK=['shift','debt','fraud','hype'].filter(k=>counts[k]),TOT=PK.reduce((s,k)=>s+counts[k],0);
+pats.innerHTML='<div class="aut-bar" role="tablist" aria-label="Causes of death"></div><div class="aut-case" aria-live="polite"></div>';
+const bar=pats.querySelector('.aut-bar'),cs=pats.querySelector('.aut-case');let ak=PK[0],auto=null;
+PK.forEach((k,i)=>{const b=document.createElement('button');b.type='button';b.className='aut-seg s'+i;b.setAttribute('role','tab');b.dataset.k=k;
+b.style.flexGrow=counts[k];b.innerHTML='<b>'+counts[k]+'</b><span>'+PAT[k].t+'</span><i>'+Math.round(counts[k]/TOT*100)+'%</i>';
+b.onclick=()=>{stop();show(k);};b.onmouseenter=()=>{stop();show(k);};bar.appendChild(b);});
+function show(k){ak=k;const i=PK.indexOf(k),L=live.filter(e=>e.p===k);
+bar.querySelectorAll('.aut-seg').forEach(b=>{const on=b.dataset.k===k;b.classList.toggle('on',on);b.setAttribute('aria-selected',on)});
+cs.className='aut-case c'+i;
+cs.innerHTML='<div class="aut-l"><div class="aut-k">Cause of death No. '+(i+1)+'</div><h3></h3><p></p>'+
+'<div class="aut-meta"><span><b>'+L.length+'</b> of '+TOT+' empires</span><span><b>'+Math.min.apply(null,L.map(e=>e.y))+'&ndash;'+Math.max.apply(null,L.map(e=>e.y))+'</b> span</span></div>'+
+'<button type="button" class="aut-go">Open these '+L.length+' files &rarr;</button></div><div class="aut-r"></div><div class="aut-stamp">'+PAT[k].t+'</div>';
+cs.querySelector('h3').textContent=PAT[k].t;cs.querySelector('p').textContent=PAT[k].d;
+const r=cs.querySelector('.aut-r');L.forEach((e,j)=>{const a=document.createElement('a');a.className='aut-pol';a.style.setProperty('--r',((j*37)%11-5)+'deg');a.style.animationDelay=(j*70)+'ms';
+a.href=PAGES[e.n]?'/files/'+PAGES[e.n]+'/':'https://www.youtube.com/watch?v='+e.id;
+a.innerHTML='<img loading="lazy" alt="" src="https://i.ytimg.com/vi/'+e.id+'/mqdefault.jpg"><span></span>';a.querySelector('span').textContent=e.co+' · '+e.y;r.appendChild(a);});
+cs.querySelector('.aut-go').onclick=()=>{setPat(k);document.getElementById('episodes').scrollIntoView({behavior:'smooth'});};}
+function stop(){if(auto){clearInterval(auto);auto=null;}}
+show(ak);
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches){auto=setInterval(()=>{const i=(PK.indexOf(ak)+1)%PK.length;show(PK[i]);},4500);
+pats.addEventListener('focusin',stop);pats.addEventListener('touchstart',stop,{passive:true});}
 // timeline
 const tl=document.getElementById('tl');
 live.slice().sort((a,b)=>a.y-b.y||a.n-b.n).forEach(e=>{const a=document.createElement('a');if(PAGES[e.n]){a.href='/files/'+PAGES[e.n]+'/';}else{a.href='https://www.youtube.com/watch?v='+e.id;a.target='_blank';a.rel='noopener';}
