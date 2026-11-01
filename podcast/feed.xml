@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Rise &amp; Ruin: Empire Files</title>
+    <link>https://riseundruin.github.io/podcast/</link>
+    <atom:link href="https://riseundruin.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <copyright>© 2026 Rise &amp; Ruin</copyright>
+    <description>True stories of how business empires rise, and why they fall. Each Empire File takes one company, from Nokia and Kodak to Enron, Lehman Brothers and Pan Am, and tells how it rose, the moment it all went wrong, and the lessons for anyone building something today. Researched and fact-checked by the Rise &amp; Ruin team, narrated with an AI voice. Watch every episode with photos, documents and maps on YouTube: https://www.youtube.com/@riseundruin</description>
+    <itunes:summary>True stories of how business empires rise, and why they fall. Each Empire File takes one company, from Nokia and Kodak to Enron, Lehman Brothers and Pan Am, and tells how it rose, the moment it all went wrong, and the lessons for anyone building something today. Researched and fact-checked by the Rise &amp; Ruin team, narrated with an AI voice. Watch every episode with photos, documents and maps on YouTube: https://www.youtube.com/@riseundruin</itunes:summary>
+    <itunes:author>Rise &amp; Ruin</itunes:author>
+    <itunes:owner><itunes:name>Rise &amp; Ruin</itunes:name><itunes:email>afsary.junaid+riseundruin@gmail.com</itunes:email></itunes:owner>
+    <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    <image><url>https://riseundruin.github.io/podcast/cover-3000.jpg</url><title>Rise &amp; Ruin: Empire Files</title><link>https://riseundruin.github.io/podcast/</link></image>
+    <itunes:category text="History"/>
+    <itunes:category text="Business"><itunes:category text="Entrepreneurship"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <podcast:locked owner="afsary.junaid+riseundruin@gmail.com">yes</podcast:locked>
+    <lastBuildDate>Sun, 01 Nov 2026 06:33:59 +0000</lastBuildDate>
+    <item>
+      <title>Why Did Atari Fail? The Company That Buried Its Games in the Desert</title>
+      <itunes:title>Why Did Atari Fail? The Company That Buried Its Games in the Desert</itunes:title>
+      <itunes:episode>15</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[Why did Atari fail? In September 1983, trucks dumped Atari game cartridges in a New Mexico landfill and workers poured concrete over them. One year earlier, Atari was bringing in about $2 billion a year.<br><br>This is the story of Atari: the $500 start, Pong, the quarters that jammed the first machine, the Atari 2600, the programmers who walked out and founded Activision, twelve million Pac-Man cartridges, the E.T. game built in about five weeks, the crash of 1983, and the Alamogordo dig in 2014.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/_VbSVRiAzDk<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- Encyclopedia.com, Atari Corporation company history (founding, Warner purchase, revenue, 1983 losses, 1984 split): https://www.encyclopedia.com/books/politics-and-business-magazines/atari-corporation<br>- CNBC, Ted Dabney, a founder of Atari and a creator of Pong: https://www.cnbc.com/2018/06/01/ted-dabney-a-founder-of-atari-and-a-creator-of-pong-dies-at-81.html<br>- IEEE Spectrum, the Atari 2600 (Consumer Electronics Hall of Fame): https://spectrum.ieee.org/the-consumer-electronics-hall-of-fame-atari-2600<br>- Game Informer, how four programmers founded Activision: https://gameinformer.com/b/features/archive/2013/02/26/activisionaries-how-four-programmers-changed-the-game-industry-forever<br>- Time, E.T. for the Atari 2600: https://entertainment.time.com/2012/05/25/et-at-30/slide/the-worst-video-game-of-all-time/<br>- KMUW, the video game crash: https://www.kmuw.org/your-move/2017-05-18/video-game-crash-your-move<br>- CBS News (AP), diggers find Atari's E.T. games in the landfill (April 2014; about 728,000 cartridges buried, per former Atari manager James Heller): https://www.cbsnews.com/amp/news/diggers-find-ataris-et-games-in-landfill<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>Why did Atari fail? In September 1983, trucks dumped Atari game cartridges in a New Mexico landfill and workers poured concrete over them. One year earlier, Atari was bringing in about $2 billion a year.
+
+This is the story of Atari: the $500 start, Pong, the quarters that jammed the first machine, the Atari 2600, the programmers who walked out and founded Activision, twelve million Pac-Man cartridges, the E.T. game built in about five weeks, the crash of 1983, and the Alamogordo dig in 2014.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/_VbSVRiAzDk
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- Encyclopedia.com, Atari Corporation company history (founding, Warner purchase, revenue, 1983 losses, 1984 split): https://www.encyclopedia.com/books/politics-and-business-magazines/atari-corporation
+- CNBC, Ted Dabney, a founder of Atari and a creator of Pong: https://www.cnbc.com/2018/06/01/ted-dabney-a-founder-of-atari-and-a-creator-of-pong-dies-at-81.html
+- IEEE Spectrum, the Atari 2600 (Consumer Electronics Hall of Fame): https://spectrum.ieee.org/the-consumer-electronics-hall-of-fame-atari-2600
+- Game Informer, how four programmers founded Activision: https://gameinformer.com/b/features/archive/2013/02/26/activisionaries-how-four-programmers-changed-the-game-industry-forever
+- Time, E.T. for the Atari 2600: https://entertainment.time.com/2012/05/25/et-at-30/slide/the-worst-video-game-of-all-time/
+- KMUW, the video game crash: https://www.kmuw.org/your-move/2017-05-18/video-game-crash-your-move
+- CBS News (AP), diggers find Atari&#x27;s E.T. games in the landfill (April 2014; about 728,000 cartridges buried, per former Atari manager James Heller): https://www.cbsnews.com/amp/news/diggers-find-ataris-et-games-in-landfill
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/_VbSVRiAzDk</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep15-atari</guid>
+      <pubDate>Sat, 31 Oct 2026 13:00:32 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep15-atari.mp3" length="3177210" type="audio/mpeg"/>
+      <itunes:duration>00:04:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Why Did Pan Am Fail? The Airline That Took Reservations for the Moon</title>
+      <itunes:title>Why Did Pan Am Fail? The Airline That Took Reservations for the Moon</itunes:title>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[Why did Pan Am fail? More than 93,000 people signed up for Pan Am's first flights to the Moon. Twenty years later, the airline that defined the jet age was gone.<br><br>This is the story of Pan Am: the Key West mail route, the Clipper flying boats, the first American jet across the Atlantic, the Boeing 747 bet, the First Moon Flights Club, the National Airlines merger, the sale of its crown jewels, and the end in December 1991.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/-kn_wGY0kfU<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- Smithsonian National Air and Space Museum, the First Moon Flights Club (over 93,000 cards, 1968 to 1971): https://airandspace.si.edu/stories/editorial/were-you-member-%E2%80%9Cfirst-moon-flights%E2%80%9D-club<br>- Smithsonian Air & Space, the 707 flight that changed everything (Oct 26, 1958, New York to Paris): https://www.smithsonianmag.com/air-space-magazine/707-flight-changed-everything-180971219/<br>- U.S. Centennial of Flight Commission, Pan Am history (Oct 19, 1927 first flight, Clippers, 747): https://centennialofflight.net/essay/Commercial_Aviation/Pan_Am/Tran12.htm<br>- Encyclopaedia Britannica, Pan American World Airways (1936 Pacific, 1939 Atlantic, 1947 round the world, 1991 bankruptcy and shutdown): https://www.britannica.com/print/article/440588<br>- The Pan Am Museum, the Boeing 747 (25 ordered in 1966, first passenger flight Jan 22, 1970): https://thepanammuseum.org/exhibit/when-things-get-jumbo<br>- Pan Am Historical Foundation, the Pan Am Building (1963, sold to MetLife for $400 million): https://www.panam.org/jet-age/air-rights-the-pan-am-building-2<br>- Airways Magazine, Pan Am acquires National Airlines ($437 million): https://airwaysmag.com/new-post/pan-am-acquires-national-airlines<br>- Airways Magazine, United buys Pan Am's Pacific Division ($750 million): https://airwaysmag.com/united-pan-am-pacific-division<br>- Hospitality ON, InterContinental history (sold to Grand Metropolitan for $500 million in 1981): https://hospitality-on.com/en/distribution/exclusive-data-25-years-hospitality-1777-today-history-intercontinental-hotel-group<br>- Delta Flight Museum, Pan Am (routes and shuttle acquired in 1991): https://www.deltamuseum.org/delta-history/family-tree/pan-am<br>- Deseret News, Dec 5, 1991, Pan Am grounded permanently (about 7,500 jobs): https://www.deseret.com/1991/12/5/18955296/pan-am-grounded-permanently/<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>Why did Pan Am fail? More than 93,000 people signed up for Pan Am&#x27;s first flights to the Moon. Twenty years later, the airline that defined the jet age was gone.
+
+This is the story of Pan Am: the Key West mail route, the Clipper flying boats, the first American jet across the Atlantic, the Boeing 747 bet, the First Moon Flights Club, the National Airlines merger, the sale of its crown jewels, and the end in December 1991.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/-kn_wGY0kfU
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- Smithsonian National Air and Space Museum, the First Moon Flights Club (over 93,000 cards, 1968 to 1971): https://airandspace.si.edu/stories/editorial/were-you-member-%E2%80%9Cfirst-moon-flights%E2%80%9D-club
+- Smithsonian Air &amp; Space, the 707 flight that changed everything (Oct 26, 1958, New York to Paris): https://www.smithsonianmag.com/air-space-magazine/707-flight-changed-everything-180971219/
+- U.S. Centennial of Flight Commission, Pan Am history (Oct 19, 1927 first flight, Clippers, 747): https://centennialofflight.net/essay/Commercial_Aviation/Pan_Am/Tran12.htm
+- Encyclopaedia Britannica, Pan American World Airways (1936 Pacific, 1939 Atlantic, 1947 round the world, 1991 bankruptcy and shutdown): https://www.britannica.com/print/article/440588
+- The Pan Am Museum, the Boeing 747 (25 ordered in 1966, first passenger flight Jan 22, 1970): https://thepanammuseum.org/exhibit/when-things-get-jumbo
+- Pan Am Historical Foundation, the Pan Am Building (1963, sold to MetLife for $400 million): https://www.panam.org/jet-age/air-rights-the-pan-am-building-2
+- Airways Magazine, Pan Am acquires National Airlines ($437 million): https://airwaysmag.com/new-post/pan-am-acquires-national-airlines
+- Airways Magazine, United buys Pan Am&#x27;s Pacific Division ($750 million): https://airwaysmag.com/united-pan-am-pacific-division
+- Hospitality ON, InterContinental history (sold to Grand Metropolitan for $500 million in 1981): https://hospitality-on.com/en/distribution/exclusive-data-25-years-hospitality-1777-today-history-intercontinental-hotel-group
+- Delta Flight Museum, Pan Am (routes and shuttle acquired in 1991): https://www.deltamuseum.org/delta-history/family-tree/pan-am
+- Deseret News, Dec 5, 1991, Pan Am grounded permanently (about 7,500 jobs): https://www.deseret.com/1991/12/5/18955296/pan-am-grounded-permanently/
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/-kn_wGY0kfU</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep14-pan-am</guid>
+      <pubDate>Tue, 27 Oct 2026 13:00:22 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep14-pan-am.mp3" length="4196613" type="audio/mpeg"/>
+      <itunes:duration>00:05:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Enron Was America&#x27;s Most Innovative Company. Its Profits Were Invented</title>
+      <itunes:title>Enron Was America&#x27;s Most Innovative Company. Its Profits Were Invented</itunes:title>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In August 2000, Enron's stock hit $90. Fifteen months later it was worth 61 cents. Fortune had called it the most innovative large company in America. What it was really inventing was its profits.<br><br>This is the story of how a gas pipeline company became a Wall Street star: mark to market accounting, the Blockbuster streaming deal, the hidden side companies, the warning letter, and the biggest bankruptcy in American history at the time.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/o1LHMGajD-s<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- Famous Trials (UMKC), Enron chronology (1985 merger, 1992 mark to market approval, $90 stock high, Skilling resignation, Watkins letter, Dynegy, $0.61, bankruptcy, Andersen, convictions): https://famous-trials.com/enron/1789-chronology<br>- International Banker, The Enron scandal (2001) ($68B peak value, Blockbuster deal profit, Fastow $45M, Andersen $52M fees, $63.4B assets, 4,000 jobs, sentences): https://internationalbanker.com/history-of-financial-crises/the-enron-scandal-2001/<br>- ABA Journal, Dec. 2, 2001: Enron files for bankruptcy: https://abajournal.com/magazine/article/dec_2_2001_enron_files_for_bankruptcy<br>- Congressional Research Service, Enron bankruptcy and employer stock in retirement plans (62% of 401(k) assets in Enron stock): https://legistorm.com/reports/view/crs/216324/Enron_Bankruptcy_and_Employer_Stock_in_Retirement_Plans.html<br>- IDM, Enron in broadband scam (Blockbuster deal ended March 2001): https://idm.net.au/node/5246<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In August 2000, Enron&#x27;s stock hit $90. Fifteen months later it was worth 61 cents. Fortune had called it the most innovative large company in America. What it was really inventing was its profits.
+
+This is the story of how a gas pipeline company became a Wall Street star: mark to market accounting, the Blockbuster streaming deal, the hidden side companies, the warning letter, and the biggest bankruptcy in American history at the time.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/o1LHMGajD-s
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- Famous Trials (UMKC), Enron chronology (1985 merger, 1992 mark to market approval, $90 stock high, Skilling resignation, Watkins letter, Dynegy, $0.61, bankruptcy, Andersen, convictions): https://famous-trials.com/enron/1789-chronology
+- International Banker, The Enron scandal (2001) ($68B peak value, Blockbuster deal profit, Fastow $45M, Andersen $52M fees, $63.4B assets, 4,000 jobs, sentences): https://internationalbanker.com/history-of-financial-crises/the-enron-scandal-2001/
+- ABA Journal, Dec. 2, 2001: Enron files for bankruptcy: https://abajournal.com/magazine/article/dec_2_2001_enron_files_for_bankruptcy
+- Congressional Research Service, Enron bankruptcy and employer stock in retirement plans (62% of 401(k) assets in Enron stock): https://legistorm.com/reports/view/crs/216324/Enron_Bankruptcy_and_Employer_Stock_in_Retirement_Plans.html
+- IDM, Enron in broadband scam (Blockbuster deal ended March 2001): https://idm.net.au/node/5246
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/o1LHMGajD-s</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep13-enron</guid>
+      <pubDate>Sat, 24 Oct 2026 13:00:38 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep13-enron.mp3" length="3853053" type="audio/mpeg"/>
+      <itunes:duration>00:05:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Lehman Brothers Survived 158 Years. It Didn&#x27;t Survive One Weekend</title>
+      <itunes:title>Lehman Brothers Survived 158 Years. It Didn&#x27;t Survive One Weekend</itunes:title>
+      <itunes:episode>12</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[On September 15, 2008, Lehman Brothers filed for bankruptcy with $639 billion in assets, the biggest bankruptcy in American history. The firm had lived through the Civil War and the Great Depression. It didn't survive one weekend in 2008.<br><br>This is the story of a small Alabama store that became a giant of Wall Street: the cotton trade, the housing bet, borrowing at 30 to 1, the Repo 105 accounting trick, and the weekend nobody came to the rescue.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/AaAzwIjWbww<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- History.com, Lehman Brothers collapses (1844 founding, $639B assets, $613B debts, 25,000 employees, five mortgage lenders, $111B real estate assets, Dow fell 500+ points, Barclays): https://www.history.com/this-day-in-history/september-15/lehman-brothers-collapses<br>- Harvard Business School Baker Library, Lehman Brothers: general merchants to commodities brokers (Henry, Emanuel and Mayer Lehman, cotton, New York Cotton Exchange): https://www.library.hbs.edu/special-collections-and-archives/exhibits/lehman/general-merchants-to-commodities-brokers<br>- The Saturday Evening Post (2019), Lehman Brothers: the company that nearly bankrupted America ($360M sale in 1984, 1994 spin-off, roughly 30 to 1 leverage, 45% share drop): https://www.saturdayeveningpost.com/2019/01/lehman-brothers-the-company-that-nearly-bankrupted-america/<br>- EBSCO Research Starters, Collapse of Lehman Brothers ($2.8B loss in June 2008, Bear Stearns): https://www.ebsco.com/research-starters/economics/collapse-lehman-brothers<br>- Mail & Guardian (2010), Lehman's illegal gimmicks (Repo 105, up to $50B, examiner's report): https://mg.co.za/business/2010-03-23-lehman-s-illegal-gimmicks/<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>On September 15, 2008, Lehman Brothers filed for bankruptcy with $639 billion in assets, the biggest bankruptcy in American history. The firm had lived through the Civil War and the Great Depression. It didn&#x27;t survive one weekend in 2008.
+
+This is the story of a small Alabama store that became a giant of Wall Street: the cotton trade, the housing bet, borrowing at 30 to 1, the Repo 105 accounting trick, and the weekend nobody came to the rescue.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/AaAzwIjWbww
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- History.com, Lehman Brothers collapses (1844 founding, $639B assets, $613B debts, 25,000 employees, five mortgage lenders, $111B real estate assets, Dow fell 500+ points, Barclays): https://www.history.com/this-day-in-history/september-15/lehman-brothers-collapses
+- Harvard Business School Baker Library, Lehman Brothers: general merchants to commodities brokers (Henry, Emanuel and Mayer Lehman, cotton, New York Cotton Exchange): https://www.library.hbs.edu/special-collections-and-archives/exhibits/lehman/general-merchants-to-commodities-brokers
+- The Saturday Evening Post (2019), Lehman Brothers: the company that nearly bankrupted America ($360M sale in 1984, 1994 spin-off, roughly 30 to 1 leverage, 45% share drop): https://www.saturdayeveningpost.com/2019/01/lehman-brothers-the-company-that-nearly-bankrupted-america/
+- EBSCO Research Starters, Collapse of Lehman Brothers ($2.8B loss in June 2008, Bear Stearns): https://www.ebsco.com/research-starters/economics/collapse-lehman-brothers
+- Mail &amp; Guardian (2010), Lehman&#x27;s illegal gimmicks (Repo 105, up to $50B, examiner&#x27;s report): https://mg.co.za/business/2010-03-23-lehman-s-illegal-gimmicks/
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/AaAzwIjWbww</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep12-lehman</guid>
+      <pubDate>Wed, 21 Oct 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep12-lehman.mp3" length="4531709" type="audio/mpeg"/>
+      <itunes:duration>00:06:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Sears Quit Selling From Home One Year Before Amazon</title>
+      <itunes:title>Sears Quit Selling From Home One Year Before Amazon</itunes:title>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In 1993, Sears shut down its famous catalog. One year later, Amazon was founded. Sears had been selling to people at home for a hundred years.<br><br>This is the story of the store that sold everything: the watch seller from Minnesota, the catalog that sold entire houses, the tallest building in the world, the Kmart deal, and the slow sale of everything Sears owned.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/e8OdW9-D-MI<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- History.com, Sears catalog sold everything from houses to hubcaps (1886 watches, Alvah Roebuck, 322 pages in 1894, 70,000 to 75,000 kit homes from 1908 to 1940): https://www.history.com/articles/sears-catalog-houses-hubcaps<br>- Fox Business (Oct 2018), Sears through the years (1893 name, Kenmore 1913, Craftsman 1927 for $500 and 2017 sale for $900M, Allstate 1931, Sears Tower 1973, Discover 1985, catalog ended 1993): https://www.foxbusiness.com/markets/sears-through-the-years-from-watch-seller-to-tower-builder<br>- The Motley Fool (Oct 2018), Now-bankrupt Sears was once the Amazon and Walmart (Walmart passed Sears by 1991): https://www.fool.com/investing/2018/10/16/now-bankrupt-sears-was-once-the-amazon-and-walmart.aspx<br>- PCWorld, Exploring the lost world of Prodigy (run by IBM and Sears, 1988 to 1996): https://www.pcworld.com/article/419660/this-old-tech-exploring-the-lost-world-of-prodigy-one-screen-at-a-time.html<br>- NBC News (Nov 2004), Kmart to acquire Sears in $11 billion deal (about 3,500 stores, third biggest US retailer): https://www.nbcnews.com/id/6509683/<br>- The Motley Fool (Oct 2018), Sears bankruptcy: how it got here ($11.3B liabilities, Lands' End, Seritage, store closures): https://www.fool.com/investing/2018/10/15/sears-bankruptcy-how-it-got-here-and-what-happens.aspx<br>- CNBC (Jan 2019), Sears chairman prevails in bankruptcy auction with $5.2 billion bid (425 stores, up to 45,000 jobs): https://www.cnbc.com/2019/01/16/sears-chairman-reportedly-prevails-in-bankruptcy-auction-for-retailer-with-5point2-billion-bid.html<br>- CoStar (July 2025), Once-giant Sears could soon be down to just five locations (eight stores left): https://www.costar.com/article/1406528706/once-giant-sears-could-soon-be-down-to-just-five-locations<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In 1993, Sears shut down its famous catalog. One year later, Amazon was founded. Sears had been selling to people at home for a hundred years.
+
+This is the story of the store that sold everything: the watch seller from Minnesota, the catalog that sold entire houses, the tallest building in the world, the Kmart deal, and the slow sale of everything Sears owned.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/e8OdW9-D-MI
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- History.com, Sears catalog sold everything from houses to hubcaps (1886 watches, Alvah Roebuck, 322 pages in 1894, 70,000 to 75,000 kit homes from 1908 to 1940): https://www.history.com/articles/sears-catalog-houses-hubcaps
+- Fox Business (Oct 2018), Sears through the years (1893 name, Kenmore 1913, Craftsman 1927 for $500 and 2017 sale for $900M, Allstate 1931, Sears Tower 1973, Discover 1985, catalog ended 1993): https://www.foxbusiness.com/markets/sears-through-the-years-from-watch-seller-to-tower-builder
+- The Motley Fool (Oct 2018), Now-bankrupt Sears was once the Amazon and Walmart (Walmart passed Sears by 1991): https://www.fool.com/investing/2018/10/16/now-bankrupt-sears-was-once-the-amazon-and-walmart.aspx
+- PCWorld, Exploring the lost world of Prodigy (run by IBM and Sears, 1988 to 1996): https://www.pcworld.com/article/419660/this-old-tech-exploring-the-lost-world-of-prodigy-one-screen-at-a-time.html
+- NBC News (Nov 2004), Kmart to acquire Sears in $11 billion deal (about 3,500 stores, third biggest US retailer): https://www.nbcnews.com/id/6509683/
+- The Motley Fool (Oct 2018), Sears bankruptcy: how it got here ($11.3B liabilities, Lands&#x27; End, Seritage, store closures): https://www.fool.com/investing/2018/10/15/sears-bankruptcy-how-it-got-here-and-what-happens.aspx
+- CNBC (Jan 2019), Sears chairman prevails in bankruptcy auction with $5.2 billion bid (425 stores, up to 45,000 jobs): https://www.cnbc.com/2019/01/16/sears-chairman-reportedly-prevails-in-bankruptcy-auction-for-retailer-with-5point2-billion-bid.html
+- CoStar (July 2025), Once-giant Sears could soon be down to just five locations (eight stores left): https://www.costar.com/article/1406528706/once-giant-sears-could-soon-be-down-to-just-five-locations
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/e8OdW9-D-MI</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep11-sears</guid>
+      <pubDate>Sun, 18 Oct 2026 13:00:15 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep11-sears.mp3" length="4219166" type="audio/mpeg"/>
+      <itunes:duration>00:05:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Toys R Us Was Bought With $5 Billion of Its Own Debt</title>
+      <itunes:title>Toys R Us Was Bought With $5 Billion of Its Own Debt</itunes:title>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In 2005, three investment firms bought Toys R Us for $6.6 billion. More than $5 billion of it was borrowed, and the toy store itself had to pay it back. Twelve years later, Toys R Us was bankrupt. Six months after that, all 735 of its American stores were closing.<br><br>This is the story of the toy store every child knew: the backwards R, the ten-year Amazon deal that went to court, the leveraged buyout, and the brand that refused to die.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/PjyxjpOVxbk<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- CNBC (Mar 2018), Toys R Us founder Charles Lazarus dies at 94 (1948 founding, 1957 first store, backwards R): https://www.cnbc.com/2018/03/22/toys-r-us-founder-charles-lazarus-dies-at-94-as-toy-empire-liquidates.html<br>- NPR (1999), Toys Were Us (losing ground to Walmart): https://www.npr.org/1999/11/28/1067149/toys-were-us<br>- Out-Law / Pinsent Masons (2006), Toysrus.com wins Amazon.com exclusivity suit: https://www.pinsentmasons.com/out-law/news/toysruscom-wins-amazoncom-exclusivity-suit<br>- TechCrunch (June 2009), Amazon pays $51 million to end battle with Toys R Us: https://techcrunch.com/?p=73108<br>- Forbes (Sept 2017), The big investment firms that lost $1.3 billion in the Toys R Us bankruptcy ($6.6B buyout, $5.3B+ debt, ~$400M a year, CEO filing quote): https://www.forbes.com/sites/nathanvardi/2017/09/19/the-big-investment-firms-that-lost-1-3-billion-on-the-toys-r-us-bankruptcy/<br>- CBS News (Mar 2018), Toys R Us shutting U.S. stores, liquidating inventory (735 stores, 33,000 jobs, $5B+ debt): https://www.cbsnews.com/news/toys-r-us-shutting-u-s-stores-liquidating-inventory/<br>- NPR (July 2022), Toys R Us is making another comeback, this time in Macy's stores: https://www.npr.org/2022/07/19/1112275498/toys-r-us-macys-stores<br>- Retail Brew (Nov 2025), Toys R Us is making a comeback (WHP Global, new stores): https://www.retailbrew.com/stories/2025/11/12/toys-r-us-is-making-a-comeback-and-toymakers-are-rejoicing<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In 2005, three investment firms bought Toys R Us for $6.6 billion. More than $5 billion of it was borrowed, and the toy store itself had to pay it back. Twelve years later, Toys R Us was bankrupt. Six months after that, all 735 of its American stores were closing.
+
+This is the story of the toy store every child knew: the backwards R, the ten-year Amazon deal that went to court, the leveraged buyout, and the brand that refused to die.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/PjyxjpOVxbk
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- CNBC (Mar 2018), Toys R Us founder Charles Lazarus dies at 94 (1948 founding, 1957 first store, backwards R): https://www.cnbc.com/2018/03/22/toys-r-us-founder-charles-lazarus-dies-at-94-as-toy-empire-liquidates.html
+- NPR (1999), Toys Were Us (losing ground to Walmart): https://www.npr.org/1999/11/28/1067149/toys-were-us
+- Out-Law / Pinsent Masons (2006), Toysrus.com wins Amazon.com exclusivity suit: https://www.pinsentmasons.com/out-law/news/toysruscom-wins-amazoncom-exclusivity-suit
+- TechCrunch (June 2009), Amazon pays $51 million to end battle with Toys R Us: https://techcrunch.com/?p=73108
+- Forbes (Sept 2017), The big investment firms that lost $1.3 billion in the Toys R Us bankruptcy ($6.6B buyout, $5.3B+ debt, ~$400M a year, CEO filing quote): https://www.forbes.com/sites/nathanvardi/2017/09/19/the-big-investment-firms-that-lost-1-3-billion-on-the-toys-r-us-bankruptcy/
+- CBS News (Mar 2018), Toys R Us shutting U.S. stores, liquidating inventory (735 stores, 33,000 jobs, $5B+ debt): https://www.cbsnews.com/news/toys-r-us-shutting-u-s-stores-liquidating-inventory/
+- NPR (July 2022), Toys R Us is making another comeback, this time in Macy&#x27;s stores: https://www.npr.org/2022/07/19/1112275498/toys-r-us-macys-stores
+- Retail Brew (Nov 2025), Toys R Us is making a comeback (WHP Global, new stores): https://www.retailbrew.com/stories/2025/11/12/toys-r-us-is-making-a-comeback-and-toymakers-are-rejoicing
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/PjyxjpOVxbk</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep10-toys-r-us</guid>
+      <pubDate>Thu, 15 Oct 2026 05:01:40 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep10-toys-r-us.mp3" length="3936418" type="audio/mpeg"/>
+      <itunes:duration>00:05:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>How Yahoo Introduced the World to Google</title>
+      <itunes:title>How Yahoo Introduced the World to Google</itunes:title>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In February 2008, Microsoft offered $44.6 billion for Yahoo. Yahoo said no. Eight years later, it agreed to sell its core internet business to Verizon for less than $5 billion.<br><br>This is the story of the company that was once the front door to the internet: how it put Google's name next to its own search box, offered $1 billion for Facebook and was turned down, rejected Microsoft, and then lost data from all three billion of its accounts.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/nLxWpRYVQbY<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- Stanford Engineering, David Filo (Jerry and Dave's guide, 1994; Yahoo co-founded 1995): https://engineering.stanford.edu/about/history/heroes/2013-heroes/david-filo<br>- Axios (2021), Verizon sold AOL and Yahoo for about 1% of their peak valuation ($125B+ peak, $4.48B, $5B Apollo sale): https://www.axios.com/2021/05/04/verizon-aol-yahoo-valuations<br>- NBC News (2009), How Yahoo "just lost their way" with search (Google partnership in 2000, $2B+ on search acquisitions): https://www.nbcnews.com/news/amp/wbna32221094<br>- Inc., Peter Thiel on the day Zuckerberg turned down Yahoo's $1 billion: https://www.inc.com/allison-fass/peter-thiel-mark-zuckerberg-luck-day-facebook-turned-down-billion-dollars.html<br>- ABC News (2008), Yahoo: Microsoft bid undervalues company ($44.6B, $31 a share, 62% premium): https://abcnews.com/Business/story?id=4606934&page=1<br>- CNBC (May 2008), Microsoft withdraws offer to acquire Yahoo ($33 a share; Yahoo reportedly wanted $37): https://www.cnbc.com/2008/05/03/microsoft-withdraws-offer-to-acquire-yahoo.html<br>- Forbes (2016), How Jerry Yang killed Yahoo, by saving it (Alibaba stake): https://www.forbes.com/sites/briansolomon/2016/07/25/yahoo-verizon-sold-alibaba-jerry-yang/<br>- CNBC (June 2017), Verizon completes its $4.48 billion acquisition of Yahoo: https://www.cnbc.com/2017/06/13/verizon-completes-yahoo-acquisition-marissa-mayer-resigns.html<br>- TechCrunch (Feb 2017), Verizon knocks $350M off Yahoo sale after data breaches: https://techcrunch.com/2017/02/21/verizon-knocks-350m-off-yahoo-sale-after-data-breaches-now-valued-at-4-48b/<br>- Phys.org (AFP, Oct 2017), 2013 hack hit all 3 billion Yahoo accounts: https://phys.org/news/2017-10-hack-billion-yahoo-accounts-company.html<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In February 2008, Microsoft offered $44.6 billion for Yahoo. Yahoo said no. Eight years later, it agreed to sell its core internet business to Verizon for less than $5 billion.
+
+This is the story of the company that was once the front door to the internet: how it put Google&#x27;s name next to its own search box, offered $1 billion for Facebook and was turned down, rejected Microsoft, and then lost data from all three billion of its accounts.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/nLxWpRYVQbY
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- Stanford Engineering, David Filo (Jerry and Dave&#x27;s guide, 1994; Yahoo co-founded 1995): https://engineering.stanford.edu/about/history/heroes/2013-heroes/david-filo
+- Axios (2021), Verizon sold AOL and Yahoo for about 1% of their peak valuation ($125B+ peak, $4.48B, $5B Apollo sale): https://www.axios.com/2021/05/04/verizon-aol-yahoo-valuations
+- NBC News (2009), How Yahoo &quot;just lost their way&quot; with search (Google partnership in 2000, $2B+ on search acquisitions): https://www.nbcnews.com/news/amp/wbna32221094
+- Inc., Peter Thiel on the day Zuckerberg turned down Yahoo&#x27;s $1 billion: https://www.inc.com/allison-fass/peter-thiel-mark-zuckerberg-luck-day-facebook-turned-down-billion-dollars.html
+- ABC News (2008), Yahoo: Microsoft bid undervalues company ($44.6B, $31 a share, 62% premium): https://abcnews.com/Business/story?id=4606934&amp;page=1
+- CNBC (May 2008), Microsoft withdraws offer to acquire Yahoo ($33 a share; Yahoo reportedly wanted $37): https://www.cnbc.com/2008/05/03/microsoft-withdraws-offer-to-acquire-yahoo.html
+- Forbes (2016), How Jerry Yang killed Yahoo, by saving it (Alibaba stake): https://www.forbes.com/sites/briansolomon/2016/07/25/yahoo-verizon-sold-alibaba-jerry-yang/
+- CNBC (June 2017), Verizon completes its $4.48 billion acquisition of Yahoo: https://www.cnbc.com/2017/06/13/verizon-completes-yahoo-acquisition-marissa-mayer-resigns.html
+- TechCrunch (Feb 2017), Verizon knocks $350M off Yahoo sale after data breaches: https://techcrunch.com/2017/02/21/verizon-knocks-350m-off-yahoo-sale-after-data-breaches-now-valued-at-4-48b/
+- Phys.org (AFP, Oct 2017), 2013 hack hit all 3 billion Yahoo accounts: https://phys.org/news/2017-10-hack-billion-yahoo-accounts-company.html
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/nLxWpRYVQbY</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep09-yahoo</guid>
+      <pubDate>Thu, 15 Oct 2026 04:05:07 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep09-yahoo.mp3" length="4488738" type="audio/mpeg"/>
+      <itunes:duration>00:06:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Facebook Didn&#x27;t Kill MySpace. MySpace Did</title>
+      <itunes:title>Facebook Didn&#x27;t Kill MySpace. MySpace Did</itunes:title>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In July 2006, for one week, MySpace was the most visited website in America by one research firm's count, ahead of Google and Yahoo. News Corp had bought it a year earlier for $580 million. In 2011, it sold MySpace for about $35 million.<br><br>The usual story is that Facebook killed it. But MySpace was already hurting itself: a $900 million ad deal with traffic targets, twice as many ads, a product its own co-founder says lacked focus, and a rival that let others build on its platform. This is the rise and ruin of the social network that taught a generation how to live online.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/FPAyYKlGgTo<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- TechCrunch (July 2006), MySpace hit #1 US destination last week, Hitwise: https://techcrunch.com/2006/07/11/myspace-hit-1-us-destination-last-week-hitwise/<br>- Rochester Business Journal (AP, July 2005), News Corp. to buy MySpace.com owner for $580 million: https://rbj.net/2005/07/18/news-corp-to-buy-myspace-com-owner-for-580-million/<br>- Britannica, Tom Anderson (MySpace founding, eUniverse): https://www.britannica.com/biography/Tom-Anderson<br>- Deseret News (AP, Aug 2006), Google, MySpace sign $900 million deal: https://www.deseret.com/2006/8/8/19967462/google-myspace-sign-900-million-deal/<br>- HuffPost (2011), How MySpace fell apart (DeWolfe, Gold and Parker quotes, user losses, layoffs): https://www.huffpost.com/entry/how-myspace-fell-apart_n_887853<br>- Washington Post (June 2008), Facebook passes MySpace with global boost (comScore, May 2008): https://www.washingtonpost.com/wp-dyn/content/article/2008/06/23/AR2008062302094.html<br>- PCWorld (June 2009), Facebook overtakes MySpace in U.S. (comScore, May 2009): https://www.pcworld.com/article/523618/facebook_overtakes_myspace_in_us.html<br>- TechCrunch (Apr 2009), MySpace CEO Chris DeWolfe steps down: https://techcrunch.com/2009/04/22/confirmed-myspace-ceo-chris-dewolfe-steps-down/<br>- NPR (June 2011), News Corp. sells MySpace for $35 million: https://www.npr.org/2011/06/30/137518428/the-last-word-in-business<br>- TechCrunch (Oct 2011), Murdoch on MySpace: "I made a huge mistake": https://techcrunch.com/2011/10/21/murdoch-on-myspace-i-made-a-huge-mistake/<br>- NPR (Mar 2019), MySpace says it lost years of user-uploaded music: https://www.npr.org/2019/03/18/704458168/myspace-says-it-lost-years-of-user-uploaded-music<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In July 2006, for one week, MySpace was the most visited website in America by one research firm&#x27;s count, ahead of Google and Yahoo. News Corp had bought it a year earlier for $580 million. In 2011, it sold MySpace for about $35 million.
+
+The usual story is that Facebook killed it. But MySpace was already hurting itself: a $900 million ad deal with traffic targets, twice as many ads, a product its own co-founder says lacked focus, and a rival that let others build on its platform. This is the rise and ruin of the social network that taught a generation how to live online.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/FPAyYKlGgTo
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- TechCrunch (July 2006), MySpace hit #1 US destination last week, Hitwise: https://techcrunch.com/2006/07/11/myspace-hit-1-us-destination-last-week-hitwise/
+- Rochester Business Journal (AP, July 2005), News Corp. to buy MySpace.com owner for $580 million: https://rbj.net/2005/07/18/news-corp-to-buy-myspace-com-owner-for-580-million/
+- Britannica, Tom Anderson (MySpace founding, eUniverse): https://www.britannica.com/biography/Tom-Anderson
+- Deseret News (AP, Aug 2006), Google, MySpace sign $900 million deal: https://www.deseret.com/2006/8/8/19967462/google-myspace-sign-900-million-deal/
+- HuffPost (2011), How MySpace fell apart (DeWolfe, Gold and Parker quotes, user losses, layoffs): https://www.huffpost.com/entry/how-myspace-fell-apart_n_887853
+- Washington Post (June 2008), Facebook passes MySpace with global boost (comScore, May 2008): https://www.washingtonpost.com/wp-dyn/content/article/2008/06/23/AR2008062302094.html
+- PCWorld (June 2009), Facebook overtakes MySpace in U.S. (comScore, May 2009): https://www.pcworld.com/article/523618/facebook_overtakes_myspace_in_us.html
+- TechCrunch (Apr 2009), MySpace CEO Chris DeWolfe steps down: https://techcrunch.com/2009/04/22/confirmed-myspace-ceo-chris-dewolfe-steps-down/
+- NPR (June 2011), News Corp. sells MySpace for $35 million: https://www.npr.org/2011/06/30/137518428/the-last-word-in-business
+- TechCrunch (Oct 2011), Murdoch on MySpace: &quot;I made a huge mistake&quot;: https://techcrunch.com/2011/10/21/murdoch-on-myspace-i-made-a-huge-mistake/
+- NPR (Mar 2019), MySpace says it lost years of user-uploaded music: https://www.npr.org/2019/03/18/704458168/myspace-says-it-lost-years-of-user-uploaded-music
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/FPAyYKlGgTo</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep08-myspace</guid>
+      <pubDate>Sun, 11 Oct 2026 16:45:55 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep08-myspace.mp3" length="4824464" type="audio/mpeg"/>
+      <itunes:duration>00:06:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Tata Tried to Sell to Ford. 9 Years Later, It Bought Jaguar</title>
+      <itunes:title>Tata Tried to Sell to Ford. 9 Years Later, It Bought Jaguar</itunes:title>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In 1999, Tata flew to Detroit to sell its struggling car business to Ford, and according to a Tata executive who was there, the meeting was humiliating. Nine years later, Ford was the one selling, and Tata bought Jaguar and Land Rover for $2.3 billion. Then the financial crisis hit.<br><br>This is the story of how an Indian company, famous for trucks and the world's cheapest car, turned two struggling British brands into a business earning billions, and why the story still isn't over.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/cfWkKZsRnEA<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- Business Standard (PTI, 2015), Pravin Kadle's account of the 1999 Ford meeting and Bill Ford's "favour" remark: https://www.business-standard.com/article/pti-stories/when-humiliated-tata-did-favour-to-ford-with-jlr-buyout-115031500207_1.html<br>- NBC News (AP, 2008), Ford sells Jaguar, Land Rover to India's Tata ($2.3B, original purchase prices, pension contribution, worker quotes): https://www.nbcnews.com/id/wbna23797447<br>- JLR Media Newsroom (June 2, 2008), Tata Motors completes acquisition of Jaguar Land Rover: https://media.jlr.com/corporate/en-us/news/2008/06/tata-motors-completes-acquisition-jaguar-land-rover<br>- NPR (Jan 2008), Tata unveils world's cheapest car: https://www.npr.org/2008/01/10/17991137/tata-unveils-worlds-cheapest-car-at-india-expo<br>- Autocar Professional, 10 years of Tata-JLR (2008 losses, first loss in 7 years, 2015 profit): https://www.autocarpro.in/news-international/tata-jlr-journey-billion-pounds-billion-pounds-29749<br>- Business Standard (2014), JLR: the saved becomes the saviour ($3B bridge loan, fundraising, China share): https://www.business-standard.com/article/companies/jlr-the-saved-becomes-the-saviour-114041400908_1.html<br>- Business Standard (Aug 2009), JLR gets funding without UK government aid: https://www.business-standard.com/article/companies/jlr-gets-funding-without-uk-government-aid-109081200021_1.html<br>- WardsAuto (2010), Jaguar Land Rover taps Speth as CEO: https://www.wardsauto.com/news/archive-wards-jaguar-land-rover-taps-speth-as-ceo/775082/<br>- JLR (2018), New Range Rover Evoque: Great British success story continues (one in four Land Rover sales): https://www.jlr.com/news/2018/11/new-range-rover-evoque-great-british-success-story-continues<br>- JLR Media Newsroom (2011), Jaguar Land Rover PLC annual report and results FY2010/11: https://media.jlr.com/corporate/news/2011/07/jaguar-land-rover-plc-annual-report-and-results<br>- JLR (Apr 2018), Fiscal year 2017/18 retail sales of 614,309: https://www.jlr.com/news/2018/04/jaguar-land-rover-reports-rise-fiscal-year-sales-0<br>- JLR (May 2025), JLR delivers strong full year performance (FY25): https://www.jlr.com/news/2025/05/jlr-delivers-strong-full-year-performance<br>- Autocar (Oct 2024), Ratan Tata, the man who reinvented Jaguar Land Rover, has died: https://www.autocar.co.uk/car-news/new-cars/tata-motors-chairman-ratan-tata-dies-aged-86<br>- Infosecurity Magazine (Oct 2025), JLR hack UK's costliest ever (Cyber Monitoring Centre estimate): https://www.infosecurity-magazine.com/news/jlr-hack-uk-costliest-ever-19bn/<br>- Reuters via Yahoo Finance (Sept 2025), Britain pledges £1.5 billion loan guarantee for JLR: https://finance.yahoo.com/news/britain-pledges-2-billion-loan-210243948.html<br>- JLR Media Newsroom (May 2026), JLR delivers significantly improved Q4 performance in challenging year (FY26): https://media.jlr.com/corporate/news/2026/05/jlr-delivers-significantly-improved-q4-performance-challenging-year<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In 1999, Tata flew to Detroit to sell its struggling car business to Ford, and according to a Tata executive who was there, the meeting was humiliating. Nine years later, Ford was the one selling, and Tata bought Jaguar and Land Rover for $2.3 billion. Then the financial crisis hit.
+
+This is the story of how an Indian company, famous for trucks and the world&#x27;s cheapest car, turned two struggling British brands into a business earning billions, and why the story still isn&#x27;t over.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/cfWkKZsRnEA
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- Business Standard (PTI, 2015), Pravin Kadle&#x27;s account of the 1999 Ford meeting and Bill Ford&#x27;s &quot;favour&quot; remark: https://www.business-standard.com/article/pti-stories/when-humiliated-tata-did-favour-to-ford-with-jlr-buyout-115031500207_1.html
+- NBC News (AP, 2008), Ford sells Jaguar, Land Rover to India&#x27;s Tata ($2.3B, original purchase prices, pension contribution, worker quotes): https://www.nbcnews.com/id/wbna23797447
+- JLR Media Newsroom (June 2, 2008), Tata Motors completes acquisition of Jaguar Land Rover: https://media.jlr.com/corporate/en-us/news/2008/06/tata-motors-completes-acquisition-jaguar-land-rover
+- NPR (Jan 2008), Tata unveils world&#x27;s cheapest car: https://www.npr.org/2008/01/10/17991137/tata-unveils-worlds-cheapest-car-at-india-expo
+- Autocar Professional, 10 years of Tata-JLR (2008 losses, first loss in 7 years, 2015 profit): https://www.autocarpro.in/news-international/tata-jlr-journey-billion-pounds-billion-pounds-29749
+- Business Standard (2014), JLR: the saved becomes the saviour ($3B bridge loan, fundraising, China share): https://www.business-standard.com/article/companies/jlr-the-saved-becomes-the-saviour-114041400908_1.html
+- Business Standard (Aug 2009), JLR gets funding without UK government aid: https://www.business-standard.com/article/companies/jlr-gets-funding-without-uk-government-aid-109081200021_1.html
+- WardsAuto (2010), Jaguar Land Rover taps Speth as CEO: https://www.wardsauto.com/news/archive-wards-jaguar-land-rover-taps-speth-as-ceo/775082/
+- JLR (2018), New Range Rover Evoque: Great British success story continues (one in four Land Rover sales): https://www.jlr.com/news/2018/11/new-range-rover-evoque-great-british-success-story-continues
+- JLR Media Newsroom (2011), Jaguar Land Rover PLC annual report and results FY2010/11: https://media.jlr.com/corporate/news/2011/07/jaguar-land-rover-plc-annual-report-and-results
+- JLR (Apr 2018), Fiscal year 2017/18 retail sales of 614,309: https://www.jlr.com/news/2018/04/jaguar-land-rover-reports-rise-fiscal-year-sales-0
+- JLR (May 2025), JLR delivers strong full year performance (FY25): https://www.jlr.com/news/2025/05/jlr-delivers-strong-full-year-performance
+- Autocar (Oct 2024), Ratan Tata, the man who reinvented Jaguar Land Rover, has died: https://www.autocar.co.uk/car-news/new-cars/tata-motors-chairman-ratan-tata-dies-aged-86
+- Infosecurity Magazine (Oct 2025), JLR hack UK&#x27;s costliest ever (Cyber Monitoring Centre estimate): https://www.infosecurity-magazine.com/news/jlr-hack-uk-costliest-ever-19bn/
+- Reuters via Yahoo Finance (Sept 2025), Britain pledges £1.5 billion loan guarantee for JLR: https://finance.yahoo.com/news/britain-pledges-2-billion-loan-210243948.html
+- JLR Media Newsroom (May 2026), JLR delivers significantly improved Q4 performance in challenging year (FY26): https://media.jlr.com/corporate/news/2026/05/jlr-delivers-significantly-improved-q4-performance-challenging-year
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/cfWkKZsRnEA</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep07-tata</guid>
+      <pubDate>Sun, 11 Oct 2026 05:59:12 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep07-tata.mp3" length="6621289" type="audio/mpeg"/>
+      <itunes:duration>00:09:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>WeWork: The $47 Billion Company That Rented Desks</title>
+      <itunes:title>WeWork: The $47 Billion Company That Rented Desks</itunes:title>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In 2019, WeWork was valued at $47 billion, the most valuable startup in America. It also owed about $47 billion in future rent. Six weeks after it filed to go public, its founder was gone and the IPO was dead.<br><br>This is the story of how a company that rented office desks convinced the world it was a tech giant, what investors found when they finally read the fine print, and why only one of those two 47s survived.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/WuPvvEOoBPg<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- WeWork S-1 filing (SEC, August 2019): https://www.sec.gov/Archives/edgar/data/1533523/000119312519220499/d781982ds1.htm<br>- CNBC, The strangest and most alarming things in WeWork's IPO filing: https://www.cnbc.com/2019/08/17/wework-ipo-filing-strangest-and-most-alarming-things.html<br>- Crunchbase News, WeWork loses $1.9B on $1.8B in revenue during 2018: https://news.crunchbase.com/news/wework-loses-1-9b-on-1-8b-in-revenue-during-2018<br>- Forbes (2017), WeWork's $20 billion office party: https://www.forbes.com/sites/stevenbertoni/2017/10/02/the-way-we-work/<br>- CNBC, WeWork CEO returns $5.9 million paid for 'We' trademark: https://www.cnbc.com/2019/09/04/wework-ceo-returns-5point9-million-the-company-paid-for-we-trademark.html<br>- NPR, WeWork CEO steps down as IPO stalls: https://www.npr.org/2019/09/24/763913318/wework-ceo-steps-down-as-ipo-stalls<br>- TechCrunch, SoftBank taking control of WeWork at ~$8B valuation: https://techcrunch.com/2019/10/21/report-softbank-is-taking-control-of-wework-at-an-8b-valuation<br>- NBC News, WeWork files for bankruptcy protection: https://www.nbcnews.com/business/business-news/wework-bankruptcy-chapter-11-rcna123943<br>- Reuters via Investing.com, Why WeWork failed: https://www.investing.com/news/stock-market-news/explainerwhy-wework-failed-and-what-is-next-3225426<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In 2019, WeWork was valued at $47 billion, the most valuable startup in America. It also owed about $47 billion in future rent. Six weeks after it filed to go public, its founder was gone and the IPO was dead.
+
+This is the story of how a company that rented office desks convinced the world it was a tech giant, what investors found when they finally read the fine print, and why only one of those two 47s survived.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/WuPvvEOoBPg
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- WeWork S-1 filing (SEC, August 2019): https://www.sec.gov/Archives/edgar/data/1533523/000119312519220499/d781982ds1.htm
+- CNBC, The strangest and most alarming things in WeWork&#x27;s IPO filing: https://www.cnbc.com/2019/08/17/wework-ipo-filing-strangest-and-most-alarming-things.html
+- Crunchbase News, WeWork loses $1.9B on $1.8B in revenue during 2018: https://news.crunchbase.com/news/wework-loses-1-9b-on-1-8b-in-revenue-during-2018
+- Forbes (2017), WeWork&#x27;s $20 billion office party: https://www.forbes.com/sites/stevenbertoni/2017/10/02/the-way-we-work/
+- CNBC, WeWork CEO returns $5.9 million paid for &#x27;We&#x27; trademark: https://www.cnbc.com/2019/09/04/wework-ceo-returns-5point9-million-the-company-paid-for-we-trademark.html
+- NPR, WeWork CEO steps down as IPO stalls: https://www.npr.org/2019/09/24/763913318/wework-ceo-steps-down-as-ipo-stalls
+- TechCrunch, SoftBank taking control of WeWork at ~$8B valuation: https://techcrunch.com/2019/10/21/report-softbank-is-taking-control-of-wework-at-an-8b-valuation
+- NBC News, WeWork files for bankruptcy protection: https://www.nbcnews.com/business/business-news/wework-bankruptcy-chapter-11-rcna123943
+- Reuters via Investing.com, Why WeWork failed: https://www.investing.com/news/stock-market-news/explainerwhy-wework-failed-and-what-is-next-3225426
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/WuPvvEOoBPg</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep06-wework</guid>
+      <pubDate>Thu, 24 Sep 2026 15:32:46 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep06-wework.mp3" length="5035751" type="audio/mpeg"/>
+      <itunes:duration>00:07:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Hollywood Spent $1.75 Billion on an App Nobody Wanted</title>
+      <itunes:title>Hollywood Spent $1.75 Billion on an App Nobody Wanted</itunes:title>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In April 2020, Quibi launched with $1.75 billion in funding, two of America's most famous executives, Hollywood's biggest stars, and a Super Bowl ad. Six months later, it announced it was shutting down.<br><br>This is the story of how Jeffrey Katzenberg and Meg Whitman built a premium streaming app for your phone, why only a small fraction of early users paid after the free trial, and what every business owner can learn about testing demand before spending big.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/HE49IGXmBNk<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- CNBC, Quibi to shut down after just six months: https://www.cnbc.com/2020/10/21/quibi-to-shut-down-after-just-6-months.html<br>- Realscreen, Quibi confirms shutdown (open letter quotes): https://realscreen.com/2020/10/21/quibi-shutting-down-operations-reports/<br>- TechCrunch, The short, strange life of Quibi: https://techcrunch.com/2020/10/23/the-short-strange-life-of-quibi<br>- Variety, Just 8% of Quibi's initial free-trial users converted (Sensor Tower): https://variety.com/2020/digital/news/quibi-free-trial-converted-paying-customers-8-percent-1234702116/<br>- Variety, Katzenberg: "I attribute everything that has gone wrong to coronavirus": https://variety.com/2020/digital/news/quibi-struggles-jeffrey-katzenberg-coronavirus-1234603998/<br>- MacRumors, Roku acquires Quibi content for less than $100 million: https://www.macrumors.com/2021/01/08/roku-acquires-quibi-content/<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In April 2020, Quibi launched with $1.75 billion in funding, two of America&#x27;s most famous executives, Hollywood&#x27;s biggest stars, and a Super Bowl ad. Six months later, it announced it was shutting down.
+
+This is the story of how Jeffrey Katzenberg and Meg Whitman built a premium streaming app for your phone, why only a small fraction of early users paid after the free trial, and what every business owner can learn about testing demand before spending big.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/HE49IGXmBNk
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- CNBC, Quibi to shut down after just six months: https://www.cnbc.com/2020/10/21/quibi-to-shut-down-after-just-6-months.html
+- Realscreen, Quibi confirms shutdown (open letter quotes): https://realscreen.com/2020/10/21/quibi-shutting-down-operations-reports/
+- TechCrunch, The short, strange life of Quibi: https://techcrunch.com/2020/10/23/the-short-strange-life-of-quibi
+- Variety, Just 8% of Quibi&#x27;s initial free-trial users converted (Sensor Tower): https://variety.com/2020/digital/news/quibi-free-trial-converted-paying-customers-8-percent-1234702116/
+- Variety, Katzenberg: &quot;I attribute everything that has gone wrong to coronavirus&quot;: https://variety.com/2020/digital/news/quibi-struggles-jeffrey-katzenberg-coronavirus-1234603998/
+- MacRumors, Roku acquires Quibi content for less than $100 million: https://www.macrumors.com/2021/01/08/roku-acquires-quibi-content/
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/HE49IGXmBNk</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep05-quibi</guid>
+      <pubDate>Thu, 24 Sep 2026 14:46:42 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep05-quibi.mp3" length="3966197" type="audio/mpeg"/>
+      <itunes:duration>00:05:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>BlackBerry Saw the iPhone Coming. Here&#x27;s Why It Still Lost</title>
+      <itunes:title>BlackBerry Saw the iPhone Coming. Here&#x27;s Why It Still Lost</itunes:title>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In 2009, the President of the United States fought to keep his BlackBerry. Less than five years later, BlackBerry lost nearly a billion dollars in a single quarter and cut 40% of its workforce.<br><br>BlackBerry's founders weren't blind to the iPhone. One of them watched it launch and asked, "How did they do that?" This is the story of how the phone the world couldn't put down got put down, and the surprising way the company survived.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/NsDATijOlj4<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- The Canadian Encyclopedia, BlackBerry Limited: https://www.thecanadianencyclopedia.ca/en/article/blackberry-limited<br>- Fortune, What the BlackBerry guys said when they saw the iPhone (Losing the Signal excerpt): https://fortune.com/2015/05/25/what-the-blackberry-guys-said-when-they-saw-apples-iphone<br>- NBC News, Obama gets to keep his BlackBerry (2009): https://www.nbcnews.com/id/wbna28780205<br>- CrackBerry.com, Crackberry is the 2006 Word of the Year: https://crackberry.com/crackberry-2006-word-year<br>- NBC News, BlackBerry subscriber base hits 80 million (2012): https://www.nbcnews.com/tech/tech-news/blackberry-subscriber-base-80-million-rim-says-flna1B6096802<br>- InvestorPlace, A brief history of Research In Motion: https://investorplace.com/2013/01/a-brief-history-of-research-in-motion/<br>- NPR, BlackBerry to slash workforce amid $1 billion loss (2013): https://www.npr.org/sections/thetwo-way/2013/09/20/224512240/blackberry-to-slash-workforce-amid-1-billion-loss<br>- BlackBerry, Fiscal Year 2026 results: https://www.sec.gov/Archives/edgar/data/1070235/000107023526000029/q4fy26ex-991.htm<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In 2009, the President of the United States fought to keep his BlackBerry. Less than five years later, BlackBerry lost nearly a billion dollars in a single quarter and cut 40% of its workforce.
+
+BlackBerry&#x27;s founders weren&#x27;t blind to the iPhone. One of them watched it launch and asked, &quot;How did they do that?&quot; This is the story of how the phone the world couldn&#x27;t put down got put down, and the surprising way the company survived.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/NsDATijOlj4
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- The Canadian Encyclopedia, BlackBerry Limited: https://www.thecanadianencyclopedia.ca/en/article/blackberry-limited
+- Fortune, What the BlackBerry guys said when they saw the iPhone (Losing the Signal excerpt): https://fortune.com/2015/05/25/what-the-blackberry-guys-said-when-they-saw-apples-iphone
+- NBC News, Obama gets to keep his BlackBerry (2009): https://www.nbcnews.com/id/wbna28780205
+- CrackBerry.com, Crackberry is the 2006 Word of the Year: https://crackberry.com/crackberry-2006-word-year
+- NBC News, BlackBerry subscriber base hits 80 million (2012): https://www.nbcnews.com/tech/tech-news/blackberry-subscriber-base-80-million-rim-says-flna1B6096802
+- InvestorPlace, A brief history of Research In Motion: https://investorplace.com/2013/01/a-brief-history-of-research-in-motion/
+- NPR, BlackBerry to slash workforce amid $1 billion loss (2013): https://www.npr.org/sections/thetwo-way/2013/09/20/224512240/blackberry-to-slash-workforce-amid-1-billion-loss
+- BlackBerry, Fiscal Year 2026 results: https://www.sec.gov/Archives/edgar/data/1070235/000107023526000029/q4fy26ex-991.htm
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/NsDATijOlj4</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep04-blackberry</guid>
+      <pubDate>Thu, 24 Sep 2026 14:08:49 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep04-blackberry.mp3" length="4879652" type="audio/mpeg"/>
+      <itunes:duration>00:06:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Kodak Invented the Digital Camera. So Why Did It Go Bankrupt?</title>
+      <itunes:title>Kodak Invented the Digital Camera. So Why Did It Go Bankrupt?</itunes:title>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In 1975, a young Kodak engineer built the world's first handheld digital camera. Management's reaction, as he remembers it: "That's cute, but don't tell anyone about it." Thirty six years later, Kodak filed for bankruptcy.<br><br>But Kodak didn't simply ignore digital. By 2005, it was selling more digital cameras in America than anyone else. This is the story of how the company that invented the future was destroyed by it, and how its biggest rival, Fujifilm, survived the same storm.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/L-rbqfrCf7A<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- IEEE Engineering and Technology History Wiki, Handheld Digital Camera, 1975: https://ethw.org/Milestones:Handheld_Digital_Camera,_1975<br>- Forbes, How Kodak Failed: https://www.forbes.com/sites/chunkamui/2012/01/18/how-kodak-failed/<br>- NBC News, Digital camera turns 30: https://www.nbcnews.com/id/wbna9261340<br>- Rochester Business Journal, Kodak's growth and decline: https://rbj.net/2012/01/19/kodaks-growth-and-decline-a-timeline/<br>- Universitat Pompeu Fabra, Eastman Kodak case study: https://www.upf.edu/documents/2963149/3508563/61en.pdf<br>- NBC News, Kodak tops U.S. digital camera market: https://www.nbcnews.com/id/wbna11258928<br>- Bloomberg, Kodak sells Gallery to Shutterfly: https://www.bloomberg.com/news/articles/2012-03-01/kodak-agrees-to-sell-gallery-photo-service-to-shutterfly-for-23-8-million<br>- CNN Money, Eastman Kodak files for Chapter 11: https://money.cnn.com/2012/01/19/news/companies/kodak_bankruptcy/index.htm<br>- Harvard Business School, Fujifilm survives the digital revolution: https://d3.harvard.edu/platform-rctom/submission/fujifilm-surviving-the-digital-revolution-in-photography-through-diversification-into-cosmetics/<br>- CBS News, Kodak's 2025 going concern warning: https://www.cbsnews.com/news/kodak-going-concern-warning-debt-film-photography/<br>- Kodak, statement on media reports (2025): https://www.kodak.com/en/company/blog-post/statement-regarding-misleading-media-reports/<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In 1975, a young Kodak engineer built the world&#x27;s first handheld digital camera. Management&#x27;s reaction, as he remembers it: &quot;That&#x27;s cute, but don&#x27;t tell anyone about it.&quot; Thirty six years later, Kodak filed for bankruptcy.
+
+But Kodak didn&#x27;t simply ignore digital. By 2005, it was selling more digital cameras in America than anyone else. This is the story of how the company that invented the future was destroyed by it, and how its biggest rival, Fujifilm, survived the same storm.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/L-rbqfrCf7A
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- IEEE Engineering and Technology History Wiki, Handheld Digital Camera, 1975: https://ethw.org/Milestones:Handheld_Digital_Camera,_1975
+- Forbes, How Kodak Failed: https://www.forbes.com/sites/chunkamui/2012/01/18/how-kodak-failed/
+- NBC News, Digital camera turns 30: https://www.nbcnews.com/id/wbna9261340
+- Rochester Business Journal, Kodak&#x27;s growth and decline: https://rbj.net/2012/01/19/kodaks-growth-and-decline-a-timeline/
+- Universitat Pompeu Fabra, Eastman Kodak case study: https://www.upf.edu/documents/2963149/3508563/61en.pdf
+- NBC News, Kodak tops U.S. digital camera market: https://www.nbcnews.com/id/wbna11258928
+- Bloomberg, Kodak sells Gallery to Shutterfly: https://www.bloomberg.com/news/articles/2012-03-01/kodak-agrees-to-sell-gallery-photo-service-to-shutterfly-for-23-8-million
+- CNN Money, Eastman Kodak files for Chapter 11: https://money.cnn.com/2012/01/19/news/companies/kodak_bankruptcy/index.htm
+- Harvard Business School, Fujifilm survives the digital revolution: https://d3.harvard.edu/platform-rctom/submission/fujifilm-surviving-the-digital-revolution-in-photography-through-diversification-into-cosmetics/
+- CBS News, Kodak&#x27;s 2025 going concern warning: https://www.cbsnews.com/news/kodak-going-concern-warning-debt-film-photography/
+- Kodak, statement on media reports (2025): https://www.kodak.com/en/company/blog-post/statement-regarding-misleading-media-reports/
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/L-rbqfrCf7A</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep03-kodak</guid>
+      <pubDate>Thu, 24 Sep 2026 13:33:24 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep03-kodak.mp3" length="5647028" type="audio/mpeg"/>
+      <itunes:duration>00:07:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>Blockbuster Almost Beat Netflix. Here&#x27;s What Really Killed It</title>
+      <itunes:title>Blockbuster Almost Beat Netflix. Here&#x27;s What Really Killed It</itunes:title>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In 2000, Netflix offered to sell itself to Blockbuster for $50 million, and Blockbuster said no. That's the famous version. The real story is stranger: a few years later, Blockbuster was actually beating Netflix. Then it walked away from the plan that was working.<br><br>This is the rise and fall of the blue and yellow giant, from a single Dallas store in 1985 to the last Blockbuster on Earth.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/z1Ezcxj0Fhk<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- Inc., the 2000 Netflix and Blockbuster meeting (Marc Randolph's account): https://www.inc.com/minda-zetlin/netflix-blockbuster-meeting-marc-randolph-reed-hastings-john-antioco.html<br>- CNBC, How Netflix almost lost the movie rental wars to Blockbuster: https://www.cnbc.com/2020/09/22/how-netflix-almost-lost-the-movie-rental-wars-to-blockbuster.html<br>- NBC News, Hubris and late fees doomed Blockbuster: https://www.nbcnews.com/id/wbna39332696<br>- NBC News, Blockbuster to end late fees in 2005: https://www.nbcnews.com/news/amp/wbna6711543<br>- NBC News, Blockbuster CEO John Antioco to leave (2007): https://www.nbcnews.com/id/wbna17703663<br>- Forbes, A timeline of the Blockbuster life cycle: https://www.forbes.com/2010/05/18/blockbuster-netflix-coinstar-markets-bankruptcy-coinstar_slide.html<br>- Roanoke Times (1994), Blockbuster and Viacom merge: https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1994/rt0994/940930/09300054.htm<br>- CNBC, Reed Hastings' founding story and the Apollo 13 late fee: https://www.cnbc.com/2017/05/23/netflix-ceo-reed-hastings-on-how-the-company-was-born.html<br>- Deadline, Dish Network buys Blockbuster for $320 million (2011): https://deadline.com/2011/04/floundering-blockbuster-bought-by-dish-network-for-320-million-120391/<br>- CBC, Blockbuster to close remaining stores: https://amp.cbc.ca/lite/story/1.2418028<br>- Visit Central Oregon, The Last Blockbuster in Bend: https://visitcentraloregon.com/articles/the-last-blockbuster-video-store-located-in-bend-oregon/<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In 2000, Netflix offered to sell itself to Blockbuster for $50 million, and Blockbuster said no. That&#x27;s the famous version. The real story is stranger: a few years later, Blockbuster was actually beating Netflix. Then it walked away from the plan that was working.
+
+This is the rise and fall of the blue and yellow giant, from a single Dallas store in 1985 to the last Blockbuster on Earth.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/z1Ezcxj0Fhk
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- Inc., the 2000 Netflix and Blockbuster meeting (Marc Randolph&#x27;s account): https://www.inc.com/minda-zetlin/netflix-blockbuster-meeting-marc-randolph-reed-hastings-john-antioco.html
+- CNBC, How Netflix almost lost the movie rental wars to Blockbuster: https://www.cnbc.com/2020/09/22/how-netflix-almost-lost-the-movie-rental-wars-to-blockbuster.html
+- NBC News, Hubris and late fees doomed Blockbuster: https://www.nbcnews.com/id/wbna39332696
+- NBC News, Blockbuster to end late fees in 2005: https://www.nbcnews.com/news/amp/wbna6711543
+- NBC News, Blockbuster CEO John Antioco to leave (2007): https://www.nbcnews.com/id/wbna17703663
+- Forbes, A timeline of the Blockbuster life cycle: https://www.forbes.com/2010/05/18/blockbuster-netflix-coinstar-markets-bankruptcy-coinstar_slide.html
+- Roanoke Times (1994), Blockbuster and Viacom merge: https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1994/rt0994/940930/09300054.htm
+- CNBC, Reed Hastings&#x27; founding story and the Apollo 13 late fee: https://www.cnbc.com/2017/05/23/netflix-ceo-reed-hastings-on-how-the-company-was-born.html
+- Deadline, Dish Network buys Blockbuster for $320 million (2011): https://deadline.com/2011/04/floundering-blockbuster-bought-by-dish-network-for-320-million-120391/
+- CBC, Blockbuster to close remaining stores: https://amp.cbc.ca/lite/story/1.2418028
+- Visit Central Oregon, The Last Blockbuster in Bend: https://visitcentraloregon.com/articles/the-last-blockbuster-video-store-located-in-bend-oregon/
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/z1Ezcxj0Fhk</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep02-blockbuster</guid>
+      <pubDate>Thu, 24 Sep 2026 12:56:15 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep02-blockbuster.mp3" length="5572422" type="audio/mpeg"/>
+      <itunes:duration>00:07:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+    <item>
+      <title>How Nokia Lost 40% of the Phone Market</title>
+      <itunes:title>How Nokia Lost 40% of the Phone Market</itunes:title>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[In 2007, almost 4 in every 10 phones sold worldwide were Nokias. Less than seven years later, Nokia sold its entire phone business to Microsoft.<br><br>This is the story of how a Finnish paper mill became the king of mobile phones, why a company with every advantage couldn't answer the iPhone, and the surprising way Nokia survived.<br><br>Watch this Empire File with photos and documents on YouTube: https://youtu.be/382xIEf105Y<br>Subscribe on YouTube: https://www.youtube.com/@riseundruin<br><br>Sources<br>- Gartner via TechCrunch, 2007 worldwide phone sales: https://techcrunch.com/2008/02/27/over-a-billion-mobile-phones-sold-in-2007/<br>- Forbes, Nokia becomes Europe's most valuable company (1999): https://www.forbes.com/1999/12/07/mu6.html<br>- Guinness World Records, Nokia 1100: https://www.guinnessworldrecords.com/world-records/106742-biggest-selling-mobile-phone<br>- Apple Newsroom, iPhone introduced (Jan 9, 2007): https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/<br>- INSEAD Knowledge, Who Killed Nokia? Nokia Did: https://knowledge.insead.edu/strategy/who-killed-nokia-nokia-did<br>- CNN Money, Nokia picks Windows Phone (Feb 11, 2011): https://money.cnn.com/2011/02/11/technology/nokia_microsoft/index.htm<br>- CNN Money, Samsung ends Nokia's 14-year run (2012): https://money.cnn.com/2012/04/27/technology/nokia-samsung/index.htm<br>- Microsoft, acquisition of Nokia's phone business (Sep 3, 2013): https://news.microsoft.com/source/2013/09/03/microsoft-to-acquire-nokias-devices-services-business-license-nokias-patents-and-mapping-services/<br>- Nokia, sale to Microsoft completed (2014): https://www.nokia.com/newsroom/nokia-completes-sale-of-substantially-all-of-its-devices--services-business-to-microsoft/<br>- Microsoft, phone business restructuring (Jul 8, 2015): https://news.microsoft.com/source/2015/07/08/microsoft-announces-restructuring-of-phone-hardware-business/<br>- Nokia, Our history: https://www.nokia.com/about-us/company/our-history/<br><br>Narrated with an AI voice. Researched and fact-checked by the Rise & Ruin team.]]></description>
+      <itunes:summary>In 2007, almost 4 in every 10 phones sold worldwide were Nokias. Less than seven years later, Nokia sold its entire phone business to Microsoft.
+
+This is the story of how a Finnish paper mill became the king of mobile phones, why a company with every advantage couldn&#x27;t answer the iPhone, and the surprising way Nokia survived.
+
+Watch this Empire File with photos and documents on YouTube: https://youtu.be/382xIEf105Y
+Subscribe on YouTube: https://www.youtube.com/@riseundruin
+
+Sources
+- Gartner via TechCrunch, 2007 worldwide phone sales: https://techcrunch.com/2008/02/27/over-a-billion-mobile-phones-sold-in-2007/
+- Forbes, Nokia becomes Europe&#x27;s most valuable company (1999): https://www.forbes.com/1999/12/07/mu6.html
+- Guinness World Records, Nokia 1100: https://www.guinnessworldrecords.com/world-records/106742-biggest-selling-mobile-phone
+- Apple Newsroom, iPhone introduced (Jan 9, 2007): https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/
+- INSEAD Knowledge, Who Killed Nokia? Nokia Did: https://knowledge.insead.edu/strategy/who-killed-nokia-nokia-did
+- CNN Money, Nokia picks Windows Phone (Feb 11, 2011): https://money.cnn.com/2011/02/11/technology/nokia_microsoft/index.htm
+- CNN Money, Samsung ends Nokia&#x27;s 14-year run (2012): https://money.cnn.com/2012/04/27/technology/nokia-samsung/index.htm
+- Microsoft, acquisition of Nokia&#x27;s phone business (Sep 3, 2013): https://news.microsoft.com/source/2013/09/03/microsoft-to-acquire-nokias-devices-services-business-license-nokias-patents-and-mapping-services/
+- Nokia, sale to Microsoft completed (2014): https://www.nokia.com/newsroom/nokia-completes-sale-of-substantially-all-of-its-devices--services-business-to-microsoft/
+- Microsoft, phone business restructuring (Jul 8, 2015): https://news.microsoft.com/source/2015/07/08/microsoft-announces-restructuring-of-phone-hardware-business/
+- Nokia, Our history: https://www.nokia.com/about-us/company/our-history/
+
+Narrated with an AI voice. Researched and fact-checked by the Rise &amp; Ruin team.</itunes:summary>
+      <link>https://youtu.be/382xIEf105Y</link>
+      <guid isPermaLink="false">riseundruin-podcast-ep01-nokia</guid>
+      <pubDate>Thu, 24 Sep 2026 12:27:03 +0000</pubDate>
+      <enclosure url="https://riseundruin.github.io/podcast/ep01-nokia.mp3" length="5605000" type="audio/mpeg"/>
+      <itunes:duration>00:07:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://riseundruin.github.io/podcast/cover-3000.jpg"/>
+    </item>
+  </channel>
+</rss>
